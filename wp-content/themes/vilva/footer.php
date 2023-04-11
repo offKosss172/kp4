@@ -35,7 +35,7 @@
      * @hooked vilva_page_end    - 20
     */
     do_action( 'vilva_after_footer' );
-
+  
     wp_footer(); ?>
 
 </body>

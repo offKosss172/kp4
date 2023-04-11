@@ -822,7 +822,7 @@ function vilva_entry_content(){
 function vilva_footer_bottom(){ ?>
     <div class="footer-b">
         <div class="container">
-            <div class="copyright">
+            <div class="copyright"> ТЕСТ   ФУТЕР <br> ФУТЕР functions php - в  функтионс лайт <br>
                 <?php
                     vilva_get_footer_copyright();
                     echo esc_html__( ' Fashion Lite | Developed By ', 'fashion-lite' ); 

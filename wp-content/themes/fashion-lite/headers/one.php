@@ -6,7 +6,7 @@
  */
 ?>
 <header id="masthead" class="site-header style-one" itemscope itemtype="http://schema.org/WPHeader">
-    <div class="header-t">
+<div class="header-t">
         <div class="container">
             <?php vilva_secondary_navigation(); ?>
             <div class="right">
