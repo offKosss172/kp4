@@ -31,6 +31,6 @@
 		</div>
 	</div><!-- .header-bottom -->
 	<div class="line-after-nav-kosss">
-		<a href="#">AN ELEVATED EASTER. LAST CHANCE TO SHOP</a>
+		<a href="#">AN ELEVATED EASTER. LAST CHANCE TO SHOP </a>
 	</div>
 </header>
