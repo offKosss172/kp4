@@ -41,4 +41,4 @@ function vilva_customize_register_footer( $wp_customize ) {
     ) );
         
 }
-add_action( 'customize_register', 'vilva_customize_register_footer' );
+add_action( 'customize_register', 'vilva_customize_register_footer' ); 

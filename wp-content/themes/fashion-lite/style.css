@@ -226,7 +226,76 @@ HEADER STYLE THREE
   margin-bottom: 15px;
 }
 
-
+/* kosss part */
+.container-kosss-header {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+margin: 0 auto;
+}
+ .logo-header-kosss{
+  width: 300px;
+  height: 88px;
+  background-image: url('images/header/logo.png');
+ }
+.container-kosss-header > div {
+  display: flex;
+}
+.left-part-kosss-conainer-head{
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.header-mid{
+padding: 20px 0;
+width: 100%;
+position: fixed;
+    top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.header-bottom {
+  margin-top: 130px;
+}
+.header-kosss-usermenu{
+  padding-left: 150px;
+  padding-right: 20px;
+}
+.left-part-kosss-conainer-head:first-child{
+  background-image: url(images/header/geolock.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+.left-part-kosss-conainer-button{
+  background: none;
+font-size: 10px;
+line-height: 22px;
+text-transform: uppercase;
+color: #211000;
+padding: 0;
+}
+.line-after-nav-kosss{
+width: 100%;
+max-width: 1920px;
+height: 88px;
+background-color: rgb(229, 229, 229);
+margin: 0 auto;
+display: flex;
+justify-content: center;
+  align-items: center;
+}
+.line-after-nav-kosss a{
+text-decoration: none;
+color: #211000;
+font-size: 10px;
+line-height: 22px;
+}
 
 /*=================================
 accessiblity 
