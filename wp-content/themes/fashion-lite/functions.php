@@ -821,21 +821,34 @@ function vilva_entry_content(){
 */
 function vilva_footer_bottom(){ ?>
     <div class="footer-b">
-        <div class="container">
-            <div class="copyright"> ТЕСТ   ФУТЕР <br> ФУТЕР functions php - в  функтионс лайт <br>
+        <div class="container-footer-kosss-head">
+            <div>
+                <h3>POPULAR SHORTCUTS</h3>
+                <a href="/about-us/">ABOUT US</a>
+                <a href="/how-to-start-your-gift-subscription/">HOW TO START YOUR GIFT SUBSCRIPTION</a>
+                <a href="/our-mission/">OUR MISSION</a>
+                <a href="/contact-us/">CONTACT US</a>
+                <a href="/faqs/">FAQS</a>
+                <a href="/delivery/">DELIVERY</a>
+                <a href="/international-flower-delivery/">INTERNATIONAL FLOWER DELIVERY</a>
+            </div>
+            <div>
+                <h3>GET THE FLOWERBX NEWSLETTER</h3> 
+
+            </div>
+            <div>
+                <h3>DO YOU HAVE A QUESTION?</h3> 
+
+            </div>
+        </div>
+        <div class="container-footer-kosss">
+            <div >
                 <?php
                     vilva_get_footer_copyright();
-                    echo esc_html__( ' Fashion Lite | Developed By ', 'fashion-lite' ); 
-                    echo '<a href="' . esc_url( 'https://blossomthemes.com/' ) .'" rel="nofollow" target="_blank">' . esc_html__( 'Blossom Themes', 'fashion-lite' ) . '</a>.';                
-                    printf( esc_html__( ' Powered by %s. ', 'fashion-lite' ), '<a href="'. esc_url( __( 'https://wordpress.org/', 'fashion-lite' ) ) .'" target="_blank">WordPress</a>' );
-                    if( function_exists( 'the_privacy_policy_link' ) ){
-                        the_privacy_policy_link();
-                    }
+
                 ?> 
             </div>
-            <div class="footer-social">
-                <?php vilva_social_links(); ?>
-            </div>
+
         </div>
     </div> <!-- .footer-b -->
     <?php
