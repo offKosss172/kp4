@@ -7799,8 +7799,23 @@ SITE FOOTER
     margin: 0;
     padding-bottom: 20px;
 }
-
-
+.button-help-msg{
+    width: 220px;
+    height: 70px;
+    background-image: url(./images/buthelp.png);
+}
+.footer-kosss-head-helpme{
+    width: 320px;
+    cursor: pointer;
+}
+.footer-kosss-head-subscrip input{
+    width: 80%;
+}
+.line-under-banner-kosss{
+width: 100%;
+    max-width: 1920px;
+    height: 164px;
+}
 /*========================
 WIDGET CALENDAR
 ========================*/
