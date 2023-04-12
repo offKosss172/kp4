@@ -832,13 +832,18 @@ function vilva_footer_bottom(){ ?>
                 <a href="/delivery/">DELIVERY</a>
                 <a href="/international-flower-delivery/">INTERNATIONAL FLOWER DELIVERY</a>
             </div>
-            <div>
+            <div class="footer-kosss-head-subscrip">
                 <h3>GET THE FLOWERBX NEWSLETTER</h3> 
-
+                <form action="#" method="post">
+                    <input type="hidden" name="action" value="myplugin_add_email">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">></button>
+                </form>
             </div>
-            <div>
+            <div class="footer-kosss-head-helpme">
                 <h3>DO YOU HAVE A QUESTION?</h3> 
-
+                <p>Do you have a special request? Or are you in doubt about something? Send a message to our Customer Support Team, who will do their best to reply as soon as possible.</p>
+                <div class="button-help-msg"></div>
             </div>
         </div>
         <div class="container-footer-kosss">
@@ -850,9 +855,12 @@ function vilva_footer_bottom(){ ?>
             </div>
 
         </div>
-    </div> <!-- .footer-b -->
+    </div> 
     <?php
 }
+
+
+
 
 function vilva_fonts_url(){
     $fonts_url = '';

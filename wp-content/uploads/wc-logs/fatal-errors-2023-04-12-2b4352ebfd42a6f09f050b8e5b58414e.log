@@ -1,0 +1,174 @@
+2023-04-12T01:13:19+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\kp4\wp-content\themes\fashion-lite\functions.php:602
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-content\themes\fashion-lite\functions.php on line 602
+
+2023-04-12T01:13:20+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\kp4\wp-content\themes\fashion-lite\functions.php:602
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-content\themes\fashion-lite\functions.php on line 602
+
+2023-04-12T01:16:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:16:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:16:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:16:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:16:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:16:27+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:16:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:17:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:17:35+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:18:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:24:37+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:24:39+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
+2023-04-12T01:24:40+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fashion_lite_theme_setup" not found or invalid function name in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\kp4\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\kp4\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\kp4\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php on line 308
+
