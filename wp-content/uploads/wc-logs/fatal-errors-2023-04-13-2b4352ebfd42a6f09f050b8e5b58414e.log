@@ -1,2 +1,29 @@
 2023-04-13T02:53:50+00:00 CRITICAL syntax error, unexpected identifier "slider", expecting "]" у C:\xampp\htdocs\kp4\wp-content\themes\vilva\index.php доступно 5
 
+2023-04-13T07:35:36+00:00 CRITICAL Uncaught RuntimeException: Не вдалося запросити дії. Помилка бази даних. in C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:864
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(778): ActionScheduler_DBStore->claim_actions(0, 25, NULL, Array, '')
+#1 C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(308): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\kp4\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\kp4\wp-cron.php(188): do_action_ref_array('action_schedule...', Array)
+#7 {main}
+  thrown у C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php доступно 864
+
+2023-04-13T07:35:36+00:00 CRITICAL Uncaught RuntimeException: Помилка при збереженні дії: Table 'kp4.wp_kp4actionscheduler_actions' doesn't exist in C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:118
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(62): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(244): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(151): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(122): ActionScheduler_ActionFactory->recurring_unique('woocommerce_cle...', Array, false, 86400, '', false)
+#4 C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(65): as_schedule_recurring_action(false, 86400, 'woocommerce_cle...')
+#5 C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\DraftOrders.php(57): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->maybe_create_cronjobs()
+#6 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(308): Automattic\WooCommerce\Blocks\Domain\Services\DraftOrders->install('')
+#7 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\kp4\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\kp4\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#10 {main}
+  thrown у C:\xampp\htdocs\kp4\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php доступно 118
+
