@@ -1,9 +1,13 @@
 <?php
 
 
-get_header(); ?>
-       
-    
+get_header();
+
+?>
+     <?php
+echo do_shortcode('[smartslider3 slider="2"]');
+?>  
+	   
 
 	<div class="line-under-banner-kosss">
 	
