@@ -1224,8 +1224,9 @@ COMMON CSS
 }
 
 .container {
-    max-width: 1220px;
+    max-width: 1920px;
     margin: 0 auto;
+   
 }
 
 .site-header ul {
@@ -7758,7 +7759,7 @@ SITE FOOTER
 }
 
 .footer-b {
-    background: rgb(229, 229, 229);
+    background: rgb(229 229 229 / 44%);
     color: #211000;
     align-items: center;
    margin: 0 auto;
@@ -7773,7 +7774,11 @@ SITE FOOTER
     justify-content: center;
    margin: 0 auto;
 }
-
+.site-footer{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
 .footer-b {
     font-size: 0.8888em;
     flex: 1;
@@ -7784,8 +7789,9 @@ SITE FOOTER
     width: 100%;
     max-width: 1920px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
+    
 }
 .container-footer-kosss-head a{
     text-decoration: none;
@@ -7798,6 +7804,21 @@ SITE FOOTER
     font-size: inherit;
     margin: 0;
     padding-bottom: 20px;
+}
+.insta-foot-social{
+    padding-top: 30px;
+}
+.footer-kosss-head-subscrip span{
+    background-image: url(./images/main/Frame.svg);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.footer-kosss-head-subscrip span:hover{
+    color: #e18284;
+}
+.container-footer-kosss-head a:hover{
+    color: #e18284;
 }
 .button-help-msg{
     width: 220px;
@@ -7812,10 +7833,135 @@ SITE FOOTER
     width: 80%;
 }
 .line-under-banner-kosss{
-width: 100%;
+width: 98%;
     max-width: 1920px;
     height: 164px;
+    background-image: url(images/main/PRESS_LOGOS.png);
+    background-position: center;
+background-size: cover;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
+.block-recommendantion-kosss{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+margin-left: 20px;
+}
+.block-recommendantion-kosss-wrapper { 
+    display: inline-block;
+    vertical-align: top;
+  } 
+.block-recommendantion-kosss span{
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.block-recommendantion-kosss-owerflow{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    cursor: grab;
+    margin: 0 auto;
+}
+.block-recommendantion-kosss-test{
+width: 400px;
+height: 440px;
+display: inline-block;
+vertical-align: top;
+background-image: url(images/main/a.product.png);
+}
+.extraordinary-flowers-kosss{
+    width: 100%;
+    max-width: 1920px;
+height: 324px;
+display: flex;
+justify-content: space-between;
+    margin: 0 auto;
+    background-color: rgb(229 229 229 / 44%);
+}
+.extraordinary-flowers-kosss-text h2{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.extraordinary-flowers-kosss-text p{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.extraordinary-flowers-kosss-img {
+    width: 820px;
+    height: 324px;
+    background-image: url(images/main/BLOCK-2-820-324.png);
+}
+
+.three-img-blog{
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 50px;
+}
+.three-img-blog-container{
+    width: 80%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    }
+.three-img-blog-card {
+    width: calc(90% / 3);
+    max-width: 453px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .three-img-blog-card-img {
+
+    width: 453px;
+    height: 690px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .blog-card-img-first {
+    background-image: url("images/main/363.png");
+    /* max-height: 610px; */
+  }
+  
+  .blog-card-img-second {
+    background-image: url("images/main/Easte.png");
+    /* max-height: 610px; */
+  }
+  
+  .blog-card-img-threet {
+    background-image: url("images/main/362.png");
+    /* max-height: 610px; */
+  }
+  .three-img-blog-card a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    margin: 50px auto;
+    cursor: pointer;
+  }
+  .three-img-blog-card a:hover{
+    background-color: #e18284;
+    color: #000;
+  }
+
+
 /*========================
 WIDGET CALENDAR
 ========================*/

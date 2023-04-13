@@ -41,6 +41,7 @@ HEADER STYLE THREE
 	display: flex;
 	flex: auto;
 	flex-wrap: wrap;
+  justify-content: center;
 }
 
 .site-header.style-three .header-bottom .right {
@@ -284,7 +285,7 @@ padding: 0;
 width: 100%;
 max-width: 1920px;
 height: 88px;
-background-color: rgb(229, 229, 229);
+background-color: rgb(229 229 229 / 44%);
 margin: 0 auto;
 display: flex;
 justify-content: center;

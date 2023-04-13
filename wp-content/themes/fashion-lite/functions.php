@@ -839,6 +839,8 @@ function vilva_footer_bottom(){ ?>
                     <input type="email" name="email" placeholder="Enter your email" required>
                     <button type="submit">></button>
                 </form>
+                <h3 class="insta-foot-social">CONNECT WITH US ON SOCIAL</h3>
+                <a href="https://www.instagram.com/theflowerbx/?hl=en" target="_blank"><span>   @THEFLOWERBX</span></a>
             </div>
             <div class="footer-kosss-head-helpme">
                 <h3>DO YOU HAVE A QUESTION?</h3> 
