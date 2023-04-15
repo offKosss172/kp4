@@ -602,7 +602,7 @@ html {
 
 /* *,
 *:before,
-*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ 
 	box-sizing: inherit;
 } */
 
@@ -1073,7 +1073,7 @@ a:focus {
 .main-navigation {
 	display: block;
     position: relative;
-	padding-top: 130px;
+	padding-top: 160px;
 }
 .main-navigation ul#primary-menu li.current-menu-item > a,
 .main-navigation ul#primary-menu li:hover > a,
