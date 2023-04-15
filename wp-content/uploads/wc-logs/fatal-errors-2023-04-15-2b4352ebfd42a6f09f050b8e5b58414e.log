@@ -2,3 +2,87 @@
 
 2023-04-15T12:59:17+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file у C:\xampp\htdocs\kp4\wp-content\themes\shopall\inc\structure.php доступно 533
 
+2023-04-15T19:00:23+00:00 CRITICAL Uncaught Error: Undefined constant "my_form_handler" in C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php:41
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\template.php(783): require_once()
+#1 C:\xampp\htdocs\kp4\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\kp4\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\kp4\wp-content\themes\shopall\index.php(146): get_footer()
+#4 C:\xampp\htdocs\kp4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown у C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php доступно 41
+
+2023-04-15T19:00:34+00:00 CRITICAL Uncaught Error: Undefined constant "my_form_handler" in C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php:41
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\template.php(783): require_once()
+#1 C:\xampp\htdocs\kp4\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\kp4\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\kp4\wp-content\themes\shopall\index.php(146): get_footer()
+#4 C:\xampp\htdocs\kp4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown у C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php доступно 41
+
+2023-04-15T19:01:21+00:00 CRITICAL Uncaught Error: Undefined constant "my_form_handler" in C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php:41
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\template.php(783): require_once()
+#1 C:\xampp\htdocs\kp4\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\kp4\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\kp4\wp-content\themes\shopall\index.php(146): get_footer()
+#4 C:\xampp\htdocs\kp4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown у C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php доступно 41
+
+2023-04-15T19:01:43+00:00 CRITICAL Uncaught Error: Undefined constant "my_form_handler" in C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php:41
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\template.php(783): require_once()
+#1 C:\xampp\htdocs\kp4\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\kp4\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\kp4\wp-content\themes\shopall\index.php(146): get_footer()
+#4 C:\xampp\htdocs\kp4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown у C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php доступно 41
+
+2023-04-15T19:02:33+00:00 CRITICAL Uncaught Error: Undefined constant "my_form_handler" in C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php:41
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\template.php(783): require_once()
+#1 C:\xampp\htdocs\kp4\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\kp4\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\kp4\wp-content\themes\shopall\index.php(146): get_footer()
+#4 C:\xampp\htdocs\kp4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown у C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php доступно 41
+
+2023-04-15T19:03:04+00:00 CRITICAL Uncaught Error: Undefined constant "my_form_handler" in C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php:41
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\template.php(783): require_once()
+#1 C:\xampp\htdocs\kp4\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\kp4\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\kp4\wp-content\themes\shopall\index.php(146): get_footer()
+#4 C:\xampp\htdocs\kp4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown у C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php доступно 41
+
+2023-04-15T19:03:12+00:00 CRITICAL Uncaught Error: Undefined constant "my_form_handler" in C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php:41
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-includes\template.php(783): require_once()
+#1 C:\xampp\htdocs\kp4\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\kp4\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\kp4\wp-content\themes\shopall\index.php(146): get_footer()
+#4 C:\xampp\htdocs\kp4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\kp4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown у C:\xampp\htdocs\kp4\wp-content\themes\shopall\footer.php доступно 41
+

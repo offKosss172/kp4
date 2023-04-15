@@ -23,7 +23,60 @@
             <div class="footer-kosss-head-helpme">
                 <h3>DO YOU HAVE A QUESTION?</h3> 
                 <p>Do you have a special request? Or are you in doubt about something? Send a message to our Customer Support Team, who will do their best to reply as soon as possible.</p>
-                <div class="button-help-msg"></div>
+                <div class="button-help-msg">
+                    <!-- <form class="button-help-msg-form">
+                        <input type="hidden" name="action" value="process_form">
+                        <label for="name">your name:</label>
+                        <input type="text" id="name" name="name"><br>
+
+                        <label for="email">your email:</label>
+                        <input type="email" id="email" name="email"><br>
+
+                        <label for="comment">massage:</label>
+                        <textarea id="comment" name="comment"></textarea><br>
+
+                        <input type="submit" value="submit">
+                       
+                    </form> -->
+                    <form class="button-help-msg-form" action="<?php echo esc_url( admin_url('admin-post.php') ); ?>" method="post">
+                        <input type="hidden" name="action" value="process_form">
+                        <label for="name">your name:</label>
+                        <input type="text" id="name" name="name"><br>
+
+                        <label for="email">your email:</label>
+                        <input type="email" id="email" name="email"><br>
+
+                        <label for="comment">message:</label>
+                        <textarea id="comment" name="comment"></textarea><br>
+
+                        <input type="submit" value="submit">
+                    </form>
+                    
+                    <script>
+                                                // Получаем блок .button-help-msg и блок .button-help-msg-form
+                            var buttonHelpMsg = document.querySelector('.button-help-msg');
+                            var buttonHelpMsgForm = document.querySelector('.button-help-msg-form');
+
+                            // При клике на блок .button-help-msg
+                            buttonHelpMsg.addEventListener('click', function(event) {
+                            // Отменяем стандартное действие ссылки
+                            event.preventDefault();
+
+                            // Отображаем блок .button-help-msg-form
+                            buttonHelpMsgForm.style.display = 'flex';
+                            });
+
+                            // При клике на документ
+                            document.addEventListener('click', function(event) {
+                            // Если клик был не на блоке .button-help-msg и не на блоке .button-help-msg-form
+                            if (!event.target.closest('.button-help-msg') && !event.target.closest('.button-help-msg-form')) {
+                                // Скрываем блок .button-help-msg-form
+                                buttonHelpMsgForm.style.display = 'none';
+                            }
+                            });
+
+                    </script>
+                </div>
             </div>
     </div>
 

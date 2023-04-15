@@ -1096,8 +1096,11 @@ a:focus {
     padding: 0;
 }
 .main-navigation ul.sub-menu li a {
-    padding: 8px 15px;
+    /* padding: 8px 15px; */
     color: #010101;
+	width: 100vw;
+	
+
 }
 .main-navigation ul.sub-menu a:after {
 	float: right;
@@ -6827,6 +6830,7 @@ body:not(.dark-version).fifth-design #testimonial-section {
 	}
 	.main-navigation ul.sub-menu li {
 	    padding-right: 0;
+		
 	}
 	.main-navigation .menu-item-has-children > a:before {
 	    content: "";
@@ -6880,6 +6884,7 @@ body:not(.dark-version).fifth-design #testimonial-section {
 	}
 	.main-navigation ul.sub-menu {
 		border: none;
+		
 	}
 	#masthead.site-header .main-navigation ul.nav-menu {
 	    margin-top: 0;
@@ -7240,6 +7245,36 @@ border: none;
     width: 220px;
     height: 70px;
     background-image: url(assets/images/footer/buthelp.png);
+	position: relative;
+}
+.button-help-msg-form{
+	width: 300px;
+	background-color: rgb(229 229 229);
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	border-radius: 10px;
+	
+	color: #000;
+	border: 3px solid #000;
+	z-index: 1000;
+	text-align: center;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+.button-help-msg-form input{
+	border: 1px solid #000;
+	border-radius: 5px;
+	width: 80%;
+}
+.button-help-msg-form textarea{
+	width: 80%;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+.button-help-msg-form input:last-child{
+	margin: 20px auto;
 }
 .footer-kosss-head-helpme{
     width: 320px;

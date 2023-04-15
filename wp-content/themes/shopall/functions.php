@@ -367,4 +367,37 @@ require get_template_directory() . '/inc/extras.php';
 require get_template_directory() . '/inc/core.php';
 
 
+// function my_form_handler_shortcode() {
+// 	ob_start();
+// 	include 'assets/part/form-handler.php';
+// 	return ob_get_clean();
+//   }
+//   add_shortcode( 'my_form_handler', 'my_form_handler_shortcode' );
 
+
+  add_action('init', 'process_my_form');
+  function process_my_form() {
+	  global $wpdb;
+	  if (isset($_POST['action']) && $_POST['action'] == 'process_form') {
+		  $name = sanitize_text_field($_POST['name']);
+		  $email = sanitize_email($_POST['email']);
+		  $comment = sanitize_textarea_field($_POST['comment']);
+  
+		  $wpdb->insert(
+			  'kp4_help_me',
+			  array(
+				  'name' => $name,
+				  'email' => $email,
+				  'comment' => $comment,
+			  ),
+			  array(
+				  '%s',
+				  '%s',
+				  '%s'
+			  )
+		  );
+  
+		  wp_redirect('/thank-you/');
+		  exit;
+	  }
+  }
