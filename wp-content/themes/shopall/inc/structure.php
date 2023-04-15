@@ -261,6 +261,9 @@ if ( ! function_exists( 'shopall_site_navigation' ) ) :
 	        	?>
         	
 		</nav><!-- #site-navigation -->
+		<div class="line-after-nav-kosss">
+			<a href="#">NEW IN. SHOP THE SISON`S BEST STEMS. SHOP NOW</a>
+		</div>
 		<?php
 	}
 endif;
@@ -530,3 +533,5 @@ if ( ! function_exists( 'shopall_infinite_loader_spinner' ) ) :
 	}
 endif;
 add_action( 'shopall_infinite_loader_spinner_action', 'shopall_infinite_loader_spinner', 10 );
+?>
+
