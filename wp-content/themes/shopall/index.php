@@ -3,6 +3,8 @@
 $options = shopall_get_theme_options();
 get_header(); 
 ?>
+
+
 <?php
 echo do_shortcode('[smartslider3 slider="2"]');
 ?>
