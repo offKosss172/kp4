@@ -22,12 +22,7 @@
 	<div class="header-bottom">
 		<div class="container">
 			<?php vilva_primary_nagivation(); ?>
-			<div class="right">
-				<div class="header-social">
-					<?php vilva_social_links(); ?>
-				</div><!-- .header-social -->
-								
-			</div><!-- .right -->
+
 		</div>
 	</div><!-- .header-bottom -->
 	<div class="line-after-nav-kosss">
