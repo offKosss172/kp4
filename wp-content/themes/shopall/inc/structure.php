@@ -211,7 +211,7 @@ if ( ! function_exists( 'shopall_site_branding' ) ) :
 			
            <?php if ( class_exists('WooCommerce') ): ?>
 	   			<li class="cart-count">
-	       		 	<!-- <a href="<?php echo wc_get_cart_url(); ?>">
+	       		 	<a href="<?php echo wc_get_cart_url(); ?>">
 	       		 		<?php 
 	       		 			echo esc_html_e( ' CART ', 'shopall' ); 
 	       		 			if ( WC()->cart->get_cart_contents_count() > 0 ) {
@@ -220,7 +220,7 @@ if ( ! function_exists( 'shopall_site_branding' ) ) :
 	       		 			echo shopall_get_svg( array( 'icon' => 'cart' ) ); 
 
 	       		 		?>
-	           		</a> -->
+	           		</a>
 	            </li>
            	<?php  endif ; ?>             
         </ul>
