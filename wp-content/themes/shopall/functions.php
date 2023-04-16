@@ -401,3 +401,4 @@ require get_template_directory() . '/inc/core.php';
 		  exit;
 	  }
   }
+

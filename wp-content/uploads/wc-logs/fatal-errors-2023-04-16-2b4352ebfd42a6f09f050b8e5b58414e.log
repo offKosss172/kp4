@@ -1,0 +1,16 @@
+2023-04-16T01:00:22+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) у C:\xampp\htdocs\kp4\wp-content\themes\shopall\page\flower-subscriptions.php доступно 1
+
+2023-04-16T01:08:48+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) у C:\xampp\htdocs\kp4\wp-content\themes\shopall\page\flower-subscriptions.php доступно 1
+
+2023-04-16T01:11:09+00:00 CRITICAL Allowed memory size of 1073741824 bytes exhausted (tried to allocate 32768 bytes) у C:\xampp\htdocs\kp4\wp-content\themes\shopall\page\flower-subscriptions.php доступно 1
+
+2023-04-16T01:11:41+00:00 CRITICAL Allowed memory size of 1073741824 bytes exhausted (tried to allocate 32768 bytes) у C:\xampp\htdocs\kp4\wp-content\themes\shopall\page\flower-subscriptions.php доступно 1
+
+2023-04-16T01:12:21+00:00 CRITICAL Allowed memory size of 1073741824 bytes exhausted (tried to allocate 32768 bytes) у C:\xampp\htdocs\kp4\wp-content\themes\shopall\page\flower-subscriptions.php доступно 1
+
+2023-04-16T01:15:36+00:00 CRITICAL syntax error, unexpected token "endif" у C:\xampp\htdocs\kp4\wp-content\themes\shopall\page.php доступно 22
+
+2023-04-16T01:16:26+00:00 CRITICAL syntax error, unexpected end of file у C:\xampp\htdocs\kp4\wp-content\themes\shopall\page.php доступно 23
+
+2023-04-16T01:16:34+00:00 CRITICAL syntax error, unexpected end of file у C:\xampp\htdocs\kp4\wp-content\themes\shopall\page.php доступно 23
+

@@ -14,9 +14,7 @@ if ( true === apply_filters( 'shopall_filter_frontpage_content_enable', true ) )
 					
 					<?php
 					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
+					
 
 				endwhile; // End of the loop.
 				?>
@@ -24,11 +22,7 @@ if ( true === apply_filters( 'shopall_filter_frontpage_content_enable', true ) )
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-	<?php  
-	if ( shopall_is_sidebar_enable() ) {
-		get_sidebar();
-	}
-	?>
+
 </div><!-- .page-section -->
 <?php endif;
 get_footer();

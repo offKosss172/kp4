@@ -425,7 +425,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	-webkit-appearance: button;
+	webkit-appearance: button;
 	cursor: pointer;
 }
 
@@ -7531,7 +7531,18 @@ flex-direction: column;
 }
 
 
-
+/*
+Template Name: Flower Subscriptions
+*/
+.flower-Subscriptions-first-block{
+	width: 100%;
+	max-width: 1920px;
+	height: 773px;
+	margin: 0 auto;
+	background-image: url(assets/images/flsubs/1Desk.jpg) center;
+	background-position: center;
+	background-size: cover;
+}
 
 
 
