@@ -141,9 +141,13 @@ echo do_shortcode('[smartslider3 slider="2"]');
 	</div>
 </div>
 
-
+<a href="/subscriptions/"><section class="flower-Subscriptions-first-block"></section></a>
 
 
 <?php
 get_footer();
 ?>
+
+
+
+

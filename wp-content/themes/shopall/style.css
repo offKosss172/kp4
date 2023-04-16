@@ -6680,9 +6680,9 @@ body:not(.dark-version).fifth-design #testimonial-section {
 	}
 	.right-sidebar #primary,
 	.left-sidebar #primary {
-    	width: 70%;
-    	float: left;
-    	padding-right: 40px;
+    	width: 100%;
+    	margin: 0 auto;
+
     }
     .right-sidebar #secondary,
     .left-sidebar #secondary {
@@ -7539,14 +7539,34 @@ Template Name: Flower Subscriptions
 	max-width: 1920px;
 	height: 773px;
 	margin: 0 auto;
-	background-image: url(assets/images/flsubs/1Desk.jpg) center;
-	background-position: center;
-	background-size: cover;
+	background-image: url(assets/images/flsubs/1Desk.jpg);
+	background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.flower-Subscriptions-first-block a{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.test-text-kosss{
+	color: red;
+}
+.flower-Subscriptions-page{
+	width: 300px;
+	margin: 100px auto;
 }
 
-
-
-
-
-
+.flower-Subscriptions-page p{
+	font-size: 20px;
+	text-transform: lowercase;
+}
+.flower-Subscriptions-page button{
+	padding: 5px 50px;
+	margin: 50px auto;
+	border-radius: 5px;
+}
+.flower-Subscriptions-page button:hover{
+	background-color: #e18284;
+}
 
