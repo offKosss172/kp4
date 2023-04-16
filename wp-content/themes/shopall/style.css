@@ -1249,7 +1249,7 @@ svg.icon-close {
     fill: #010101;
 }
 .menu-toggle:focus {
-    outline: thin dotted #000;
+    outline: thin dotted #211000;
 }
 .menu-open .menu-toggle .icon-close {
 	display: inline-block;
@@ -1303,7 +1303,7 @@ button.dropdown-toggle {
     transition: 0.5s ease-in-out;
 }
 .menu-overlay.active {
-    background-color: #000;
+    background-color: #211000;
     position: absolute;
     left: 0;
     top: 0;
@@ -1621,7 +1621,7 @@ form.search-form button.search-submit svg {
 }
 form.search-form button.search-submit:hover,
 form.search-form button.search-submit:focus {
-	background-color: #000;
+	background-color: #211000;
 }
 form.search-form button.search-submit:hover svg,
 form.search-form button.search-submit:focus svg {
@@ -1758,7 +1758,7 @@ form.search-form input {
 }
 .wp-block-search__button:hover,
 .wp-block-search__button:focus {
-    background-color: #000;
+    background-color: #211000;
 }
 #secondary .widget-title,
 #secondary .widgettitle,
@@ -2549,9 +2549,9 @@ section {
     padding-right: 15px; */
 
 }
-.page-section {
+/* .page-section {
     padding: 60px 0;
-}
+} */
 .same-background + .same-background {
     padding-top: 0;
 }
@@ -2585,7 +2585,7 @@ ul li a {
     text-decoration: underline;
 }
 .overlay {
-    background-color: #000;
+    background-color: #211000;
     position: absolute;
     top: 0;
     left: 0;
@@ -3028,7 +3028,7 @@ object {
 #  Featured Slider Section
 --------------------------------------------------------------*/
 #featured-slider article {
-	background-color: #000;
+	background-color: #211000;
     background-size: cover;
     background-position: 50%;
     padding: 80px 0;
@@ -3141,7 +3141,7 @@ object {
 }
 .slick-dots li button:focus, 
 .slick-dots li button:hover {
-	background-color: #000;
+	background-color: #211000;
 }
 ul.slick-dots {
     bottom: 20px;
@@ -3249,7 +3249,7 @@ ul.slick-dots li.slick-active button {
 }
 #latest-products .cat-links a:hover,
 #latest-products .cat-links a:focus {
-	color: #000;
+	color: #211000;
 }
 
 /*--------------------------------------------------------------
@@ -3284,7 +3284,7 @@ ul.slick-dots li.slick-active button {
     min-width: auto;
     min-height: auto;
     padding: 0;
-    background-color: #000;
+    background-color: #211000;
     border-radius: 0;
     line-height: 1.3;
     padding: 4px 11px;
@@ -3377,7 +3377,7 @@ ul.colors li {
     cursor: pointer;
 }
 ul.colors li.active {
-	border-color: #000;
+	border-color: #211000;
 }
 ul.colors li span {
     width: 20px;
@@ -3404,11 +3404,11 @@ ul.colors li:nth-child(5n) span {
 ul.product-size li {
     display: inline-block;
     vertical-align: middle;
-    border: 1px solid #000;
+    border: 1px solid #211000;
     line-height: 1;
     padding: 6px 4px 3px;
     margin-right: 5px;
-    color: #000;
+    color: #211000;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     opacity: 0.5;
@@ -3478,7 +3478,7 @@ ul.product-nav li {
 }
 ul.product-nav li a {
     display: block;
-    color: #000;
+    color: #211000;
     padding: 11px 28px;
     border: 2px solid #E5E5E5;
     border-right: none;
@@ -3487,8 +3487,8 @@ ul.product-nav li:last-child a {
     border-right: 2px solid #E5E5E5;
 }
 ul.product-nav li.active a {
-    background-color: #000;
-    border-color: #000;
+    background-color: #211000;
+    border-color: #211000;
     color: #fff;
 }
 /*--------------------------------------------------------------
@@ -3530,12 +3530,12 @@ ul.product-nav li.active a {
 #products-collection article:nth-child(even) .cat-links a,
 #products-collection article:nth-child(even) .entry-title:nth-child(odd) a,
 #products-collection article:nth-child(even) ul.post-categories li:after {
-	color: #000;
+	color: #211000;
 }
 #products-collection article:nth-child(odd) .btn {
 	background-color: #fff;
 	border-color: #fff;
-	color: #000;
+	color: #211000;
 }
 #products-collection article:nth-child(odd) .btn:hover,
 #products-collection article:nth-child(odd) .btn:focus {
@@ -3650,7 +3650,7 @@ span.discount-offer {
     margin-bottom: 5px;
 }
 #trending-products .entry-title a {
-    color: #000;
+    color: #211000;
 }
 #trending-products .entry-title a:hover,
 #trending-products .entry-title a:focus {
@@ -3709,19 +3709,19 @@ span.discount-offer {
 #featured-products article:nth-child(odd) .btn {
     background-color: #fff;
     border-color: #fff;
-    color: #000;
+    color: #211000;
     padding: 5px 28px;
 }
 #featured-products article:nth-child(even) .btn {
-    background-color: #000;
-    border-color: #000;
+    background-color: #211000;
+    border-color: #211000;
     color: #fff;
     padding: 5px 28px;
 }
 #featured-products article:nth-child(even) .cat-links a,
 #featured-products article:nth-child(even) .entry-title a,
 #featured-products article:nth-child(even) .entry-content {
-	color: #000;
+	color: #211000;
 }
 #featured-products article:nth-child(odd) .btn:hover,
 #featured-products article:nth-child(odd) .btn:focus,
@@ -3876,7 +3876,7 @@ span.discount-offer {
 }
 .post-item-wrapper .cat-links a:hover,
 .post-item-wrapper .cat-links a:focus {
-	background-color: #000;
+	background-color: #211000;
 }
 .post-item-wrapper .entry-title {
     font-weight: 500;
@@ -3906,7 +3906,7 @@ span.discount-offer {
     margin: 0 2px 0 3px;
 }
 .archive-blog-wrapper .posted-on a {
-    color: #000;
+    color: #211000;
     font-size: 32px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -4160,7 +4160,7 @@ ul.post-categories li {
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
-    color: #000;
+    color: #211000;
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li::after, 
@@ -4443,7 +4443,7 @@ ul.post-categories li {
 	}
 	.second-design ul.product-nav li.active a {
 	    background-color: transparent;
-	    color: #000;
+	    color: #211000;
 	    font-weight: bold;
 	}
 	.second-design ul.product-nav li:last-child a {
@@ -4677,7 +4677,7 @@ ul.post-categories li {
 	}
 	.third-design ul.product-nav li.active a {
 	    background-color: transparent;
-	    color: #000;
+	    color: #211000;
 	    font-weight: bold;
 	}
 	.third-design ul.product-nav li:last-child a {
@@ -4933,7 +4933,7 @@ body:not(.dark-version).fourth-design #latest-posts .post-item-wrapper .entry-co
 	}
 	.fourth-design ul.product-nav li.active a {
 	    background-color: transparent;
-	    color: #000;
+	    color: #211000;
 	    font-weight: bold;
 	}
 	.fourth-design ul.product-nav li:last-child a {
@@ -5169,7 +5169,7 @@ body:not(.dark-version).fourth-design #latest-posts .post-item-wrapper .entry-co
 }
 .fifth-design #products-collection .entry-title a,
 .fifth-design #products-collection .cat-links a {
-	color: #000;
+	color: #211000;
 }
 .fifth-design #featured-products article:nth-child(even) .cat-links a, 
 .fifth-design #featured-products article:nth-child(even) .entry-title a, 
@@ -5248,7 +5248,7 @@ body:not(.dark-version).fifth-design #testimonial-section {
 	}
 	.fifth-design ul.product-nav li.active a {
 	    background-color: transparent;
-	    color: #000;
+	    color: #211000;
 	    font-weight: bold;
 	}
 	.fifth-design ul.product-nav li:last-child a {
@@ -5294,7 +5294,7 @@ body:not(.dark-version).fifth-design #testimonial-section {
 # Dark Version
 --------------------------------------------------------------*/
 .dark-version {
-    background-color: #000;
+    background-color: #211000;
     color: #aaa;
 }
 
@@ -5648,7 +5648,7 @@ body:not(.dark-version).fifth-design #testimonial-section {
 # 					Footer
 --------------------------------------------------------------*/
 #colophon {
-    background-color: #000;
+    background-color: #211000;
 }
 #colophon a,
 #colophon p,
@@ -6773,9 +6773,9 @@ body:not(.dark-version).fifth-design #testimonial-section {
 	    padding-right: 70px;
 	    margin: 70px auto;
 	}
-	#inner-content-wrapper {
+	/* #inner-content-wrapper {
 	    padding: 100px 0;
-	}
+	} */
 	#respond {
 	    margin-top: 55px;
 	}
@@ -7255,8 +7255,8 @@ border: none;
 	left: 0;
 	border-radius: 10px;
 	
-	color: #000;
-	border: 3px solid #000;
+	color: #211000;
+	border: 3px solid #211000;
 	z-index: 1000;
 	text-align: center;
 	display: none;
@@ -7264,13 +7264,13 @@ border: none;
 	align-items: center;
 }
 .button-help-msg-form input{
-	border: 1px solid #000;
+	border: 1px solid #211000;
 	border-radius: 5px;
 	width: 80%;
 }
 .button-help-msg-form textarea{
 	width: 80%;
-	border: 1px solid #000;
+	border: 1px solid #211000;
 	border-radius: 5px;
 }
 .button-help-msg-form input:last-child{
@@ -7417,7 +7417,7 @@ justify-content: space-between;
   .three-img-blog-card a{
     text-decoration: none;
     padding: 10px;
-    background-color: #000;
+    background-color: #211000;
     color: #fff;
     border-radius: 5px;
     margin: 50px auto;
@@ -7425,7 +7425,7 @@ justify-content: space-between;
   }
   .three-img-blog-card a:hover{
     background-color: #e18284;
-    color: #000;
+    color: #211000;
   }
 .block-reviews-and-photos{
 	width: 100%;
@@ -7549,24 +7549,100 @@ Template Name: Flower Subscriptions
 	height: 100%;
 	cursor: pointer;
 }
-.test-text-kosss{
-	color: red;
-}
+
 .flower-Subscriptions-page{
 	width: 300px;
 	margin: 100px auto;
+	border: 1px solid #211000;
+	border-radius: 5px;
+	padding: 20px;
 }
 
 .flower-Subscriptions-page p{
 	font-size: 20px;
 	text-transform: lowercase;
 }
-.flower-Subscriptions-page button{
-	padding: 5px 50px;
-	margin: 50px auto;
+.flower-Subscriptions-page-mailto input{
+	border: 1px solid #211000;
 	border-radius: 5px;
 }
-.flower-Subscriptions-page button:hover{
+.flower-Subscriptions-page-mailto .mailpoet_submit:hover{
 	background-color: #e18284;
 }
+.flower-Subscriptions-second-block{
+	width: 100%;
+	max-width: 1920px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
 
+}
+.flower-Subscriptions-second-block-text{
+	text-align: center;
+	width: 100%;
+	max-width: 600px;
+	padding: 30px;
+	margin: 50px auto;
+	text-transform: uppercase;
+}
+.flower-Subscriptions-second-block-card{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	
+	gap: 40px;
+	text-align: center;
+}
+.flower-Subscriptions-second-block-carden{
+max-width: 300px;
+
+display: flex;
+flex-direction: column;
+
+}
+.second-block-carden-foto{
+width: 300px;
+height: 302px;
+padding: 10px;
+overflow: hidden;
+background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.second-block-carden-text{
+font-size: 16px;
+}
+.second-block-carden-foto-first{
+background-image: url(assets/images/flsubs/2_40.jpg);
+}
+.second-block-carden-foto-second{
+	background-image: url(assets/images/flsubs/3_40.jpg);
+}
+.second-block-carden-foto-thres{
+	background-image: url(assets/images/flsubs/4_40.jpg);
+}
+.flower-Subscriptions-second-block a{
+padding: 20px 40px;
+text-decoration: none;
+background-color: #211000;
+color: #FFF;
+cursor: pointer;
+margin: 50px auto;
+align-items: center;
+}
+.flower-Subscriptions-second-block a:hover{
+	background-color: #e18284;
+}
+.flower-Subscriptions-threth-block{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	padding-top: 50px;
+	display: flex;
+}
+.flower-Subscriptions-threth-block-foto{
+
+}
+.flower-Subscriptions-threth-block-text{
+
+}

@@ -142,6 +142,32 @@ echo do_shortcode('[smartslider3 slider="2"]');
 </div>
 
 <a href="/subscriptions/"><section class="flower-Subscriptions-first-block"></section></a>
+<section class="flower-Subscriptions-second-block">
+	<div  class="flower-Subscriptions-second-block-text">
+		<h3><b>best subscription for those who want to behold the beauty of theeir favourite bloom.</b><br> ___ <br> <i>vogue</i> <br><br><br><b>for £40 You will receive...</b></h3>
+	</div>
+	<div class="flower-Subscriptions-second-block-card">
+		<div class="flower-Subscriptions-second-block-carden">
+			<div class="second-block-carden-foto second-block-carden-foto-first"></div>
+			<p class="second-block-carden-text">Georgeous, long-lasting, seasonal flovers, valued at £65+.</p>
+		</div>
+		<div class="flower-Subscriptions-second-block-carden">
+			<div class="second-block-carden-foto second-block-carden-foto-second"></div>
+			<p class="second-block-carden-text">Our simple & elegant Royal Windsor Vase, our gift to you on first order.</p>
+		</div>
+		<div class="flower-Subscriptions-second-block-carden">
+			<div class="second-block-carden-foto  second-block-carden-foto-thres"></div>
+			<p class="second-block-carden-text">Complimentary & convenient delivery. Pause or cancel any time.</p>
+		</div>
+	</div>
+	<a href="/subscriptions/">SEND ME FLOWER</a>
+</section>
+<section class="flower-Subscriptions-threth-block">
+	<div class="flower-Subscriptions-threth-block-foto"></div>
+	<div class="flower-Subscriptions-threth-block-text"></div>
+
+</section>
+
 
 
 <?php
