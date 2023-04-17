@@ -6517,6 +6517,7 @@ body:not(.dark-version).fifth-design #testimonial-section {
 	    color: #fa311f;
 	}
 	.main-navigation ul ul {
+		display: none;
 		background-color: #fff;
 	    box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
 	}
@@ -6686,6 +6687,7 @@ body:not(.dark-version).fifth-design #testimonial-section {
     }
     .right-sidebar #secondary,
     .left-sidebar #secondary {
+		display: none;
     	width: 30%;
     	float: right;
     	margin-top: 0;
@@ -7374,16 +7376,16 @@ justify-content: space-between;
     margin: auto;
 }
 .three-img-blog-container{
-    width: 80%;
-    height: 800px;
+    width: 100%;
+	max-width: 1520px;
+    /* height: 800px; */
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
     }
 .three-img-blog-card {
-    width: 30%; 
-    max-width: 453px;
-    min-width: 320px;
+    width: 33%; 
+    max-width: 506px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -7392,11 +7394,11 @@ justify-content: space-between;
   .three-img-blog-card-img {
 
     width: 100%;
-    height: 588px;
-    background-size: cover;
+    height: 0;
+	padding-bottom: 90%;
     background-position: center;
-    text-align: center;
-    overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
     
   }
   
@@ -7415,13 +7417,13 @@ justify-content: space-between;
     /* max-height: 610px; */
   }
   .three-img-blog-card a{
+	padding: 20px 40px;
     text-decoration: none;
-    padding: 10px;
     background-color: #211000;
-    color: #fff;
-    border-radius: 5px;
-    margin: 50px auto;
+    color: #FFF;
     cursor: pointer;
+    margin: 50px auto;
+    align-items: center;
   }
   .three-img-blog-card a:hover{
     background-color: #e18284;
@@ -7430,21 +7432,26 @@ justify-content: space-between;
 .block-reviews-and-photos{
 	width: 100%;
 	max-width: 1920px;
+	height: 510px;
 	display: flex;
 	flex-direction: row;
     justify-content: space-between;
+	align-items: center;
 	margin: 0 auto;
 	background-color: rgb(229 229 229 / 44%);
 	text-transform: uppercase;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 .block-reviews-and-photos-img{
- width: 733px;
- height: 510px;
+ width: 40%;
+ height: 0;
+ padding-bottom: 69.86%;
  flex-shrink: 0;
  background-image: url(assets/images/main/PINK_FLOW2.png);
- background-size: cover;
  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .block-reviews-and-photos-contant{
 	display: flex;
@@ -7490,8 +7497,9 @@ background-position: 50% 50%;
 	max-width: 1920px;
 	height: 610px;
 	background-image: url(assets/images/main/delivery.png);
-	background-position: center center;
 	background-size: cover;
+background-position: center right;
+background-repeat: no-repeat;
 	margin: 100px auto;
 }
 .last-section-contant-kosss{
@@ -7507,17 +7515,26 @@ flex-direction: column;
 	text-transform: uppercase;
 }
 .last-section-contant-kosss p{
-	width: 80%;
+	max-width: 1520px;
 }
 .last-section-contant-block-kosss{
-	width: 80%;
+	max-width: 1520px;
 	display: flex;
 }
 .last-section-contant-block-kosss-card{
 	display: flex;
 	flex-direction: column;
     align-items: center;
-
+}
+.last-section-contant-block-kosss-card a{
+	padding: 20px 40px;
+    text-decoration: none;
+	text-transform: uppercase;
+    background-color: #211000;
+    color: #FFF;
+    cursor: pointer;
+    margin: 50px auto;
+    align-items: center;
 }
 .last-section-contant-block-kosss-img{
 	width: 95%;
@@ -7540,7 +7557,7 @@ Template Name: Flower Subscriptions
 	height: 773px;
 	margin: 0 auto;
 	background-image: url(assets/images/flsubs/1Desk.jpg);
-	background-size: contain;
+	background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -7632,17 +7649,252 @@ align-items: center;
 }
 .flower-Subscriptions-second-block a:hover{
 	background-color: #e18284;
+	color: #211000;
 }
-.flower-Subscriptions-threth-block{
+.flower-Subscriptions-threth-block, .flower-Subscriptions-for-block{
 	width: 100%;
 	max-width: 1920px;
 	margin: 0 auto;
 	padding-top: 50px;
 	display: flex;
+	justify-content: space-around;
 }
 .flower-Subscriptions-threth-block-foto{
+	width: 60%;
+	padding: 10px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+}
+.flower-Subscriptions-threth-block-foto-one{
+	background-image: url(assets/images/flsubs/5_1.jpg);
+}
+.flower-Subscriptions-threth-block-foto-two{
+	background-image: url(assets/images/flsubs/5_2.jpg);
+}
+.flower-Subscriptions-threth-block-foto-thre{
+	background-image: url(assets/images/flsubs/5_3.jpg);
+}
+.flower-Subscriptions-threth-block-foto-one, .flower-Subscriptions-threth-block-foto-two, .flower-Subscriptions-threth-block-foto-thre{
+	width: 30%;
+	min-width: 300px;
+	height: 609px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.flower-Subscriptions-threth-block-text, .flower-Subscriptions-for-block-text{
+	width: 600px;
+	text-align: center;
+}
+.flower-Subscriptions-for-block-foto{
+	width: 60%;
+	height: 609px;
+	background-image: url(assets/images/flsubs/6.jpg);
+	background-position: center;
+	  background-repeat: no-repeat;
+}
+/* .flower-Subscriptions-for-block-text{
+	text-align: center;
+} */
+.flower-Subscriptions-threth-block p, .flower-Subscriptions-for-block p{
+	padding: 30px;
+}
+.flower-Subscriptions-threth-block h2, .flower-Subscriptions-for-block h2{
+	padding: 100px 30px 30px;
+}
+.sections-subscriptions-five{
+	margin: 100px auto;
+}
+.sections-subscriptions-five-img{
+	width: 40%;
+	height: 540px;
+	flex-shrink: 0;
+	background-image: url(assets/images/flsubs/7reviw.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.sections-foto-and-many-contant{
+	width: 100%;
+	max-width: 1920px;
+	padding-top: 100px;
+	margin: 0 auto;
+	display: flex;
+}
+.sections-foto-and-many-contant-foto{
+	width: 879px;
+	height: 1024px;
+	background-image: url(assets/images/flsubs/8.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.sections-foto-and-many-contant-text{
+	width: 50%;
+	padding-left: 50px;
+}
+.last-line-brand-photo{
+	width: 100%;
+	max-width: 1920px;
+	margin: 50px auto;
+	display: flex;
+    flex-direction: column;
+	display: none;
+}
+.last-line-brand-photo-first{
+	width: 100%;
+	height: 242px;
+	background-image: url(assets/images/flsubs/newspaper_1.jpg);
+	background-position: center;
+	  background-repeat: no-repeat;
+}
+.last-line-brand-photo-second{
+	width: 100%;
+	height: 242px;
+	background-image: url(assets/images/flsubs/newspaper_2.jpg);
+	background-position: center;
+	  background-repeat: no-repeat;
+}
+.only-foto-subscription-gifting{
+	width: 100%;
+	max-width: 1920px;
+	height: 773px;
+	background-image: url(assets/images/sbgift/1.jpg);
+	background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+.subscription-gifting-kosss{
+	width: 100%;
+max-width: 1920px;
+margin: 100px auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+    align-items: center;
+}
+.only-foto-subscription-gifting-img{
+	width: 95%;
+	height: 520px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.only-foto-subscription-gifting-one{
+	background-image: url(assets/images/sbgift/2.jpeg)
+}
+.only-foto-subscription-gifting-second{
+	background-image: url(assets/images/sbgift/3.jpg)
+}
+.only-foto-subscription-gifting-threth{
+	background-image: url(assets/images/sbgift/2-1.jpeg)
+}
+.subscription-gifting-kosss a {
+    padding: 20px 40px;
+    text-decoration: none;
+    background-color: #211000;
+    color: #FFF;
+    cursor: pointer;
+    margin: 50px auto;
+    align-items: center;
+}
+.subscription-gifting-kosss h3{
+	height: 50px;
+}
+.subscription-gifting-kosss p{
+	padding: 10px;
+	height: 70px;
+	overflow: hidden;
+}
+.subst-gifting-block-cartgift{
+	width: 100%;
+max-width: 1520px;
+margin: 100px auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+    align-items: center;
+	background-color: rgba(229, 229, 229, 0.44);
+}
+.subst-gifting-block-cartgift-foto{
+	display: flex;
 
 }
-.flower-Subscriptions-threth-block-text{
-
+.subst-gifting-block-cartgift-foto-1{
+	background-image: url(assets/images/sbgift/4_1.jpg);
+}
+.subst-gifting-block-cartgift-foto-2{
+	background-image: url(assets/images/sbgift/4_2.jpg);
+}
+.subst-gifting-block-cartgift-foto-3{
+	background-image: url(assets/images/sbgift/4_3.jpg);
+}
+.subst-gifting-block-cartgift-foto-1, .subst-gifting-block-cartgift-foto-2, .subst-gifting-block-cartgift-foto-3{
+	width: 356px;
+	height: 324px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.subst-gifting-block-cartgift a{
+	padding: 20px 40px;
+    text-decoration: none;
+	text-transform: uppercase;
+    background-color: #211000;
+    color: #FFF;
+    cursor: pointer;
+    margin: 50px auto;
+    align-items: center;
+}
+.subscription-gifting-kosss a:hover, .subst-gifting-block-cartgift a:hover{
+	background-color: #e18284;
+	color: #211000;
+}
+.sections-subscriptions-six-img{
+	width: 40%;
+	height: 540px;
+	flex-shrink: 0;
+	background-image: url(assets/images/sbgift/5.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.sections-foto-subsgift-foto{
+	width: 774px;
+	height: 1046px;
+	background-image: url(assets/images/sbgift/6.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.subsgift-antipapping{
+	padding-top: 0;
+}
+.our-mission-kosss{
+width: 100%;
+max-width: 1520px;
+margin: 100px auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+    align-items: center;
+}
+.our-mission-kosss h3{
+padding: 20px;
+max-width: 520px;
+}
+.our-mission-kosss p{
+	padding: 20px;
+	max-width: 1216px;
+}
+.our-mission-kosss-foto{
+	width: 100%;
+	max-width: 1216px;
+  height: 0;
+  padding-bottom: 49.34%;
+background-image: url(assets/images/footmenu/delinternash/EU-Store-Homepage-Fresher-Longer_2x.jpg);
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.our-mission-kosss ul{
+	margin:50px auto;
+}
+.our-mission-kosss  li { list-style-type: none; }
+.our-mission-kosss a{
+	text-decoration: none;
 }
