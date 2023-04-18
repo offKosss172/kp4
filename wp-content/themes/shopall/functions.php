@@ -207,7 +207,17 @@ function shopall_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 
-	register_sidebars( 4, array(
+	register_sidebar( array(
+        'name'       	=> esc_html__('Filter Sidebar', 'shopall'),
+        'id'         	=> 'filter-woo-sidebar',
+        'description' 	=> esc_html__( 'Add widgets here.', 'shopall' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>'
+    ) );
+
+	register_sidebars( 3, array(
 		'name'          => esc_html__( 'Optional Sidebar %d', 'shopall' ),
 		'id'            => 'optional-sidebar',
 		'description'   => esc_html__( 'Add widgets here.', 'shopall' ),
@@ -216,8 +226,23 @@ function shopall_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+
 }
 add_action( 'widgets_init', 'shopall_widgets_init' );
+
+// function register_woo_widgets(){
+//     register_sidebar( array(
+//         'name'       => esc_html__('Woo Sidebar', 'shopall'),
+//         'id'         => 'woo-sidebar',
+//         'description' => esc_html__( 'Add widgets here->', 'shopall' ),
+//         'before_widget'  => '<div id="%1$s" class="widget %2$s">',
+//         'after_widget'   => '</div>',
+//         'before_title'   => '<h2 class="widget-title">',
+//         'after_title'    => '</h2>'
+//     ) );
+// }
+// add_action( 'widgets_init', 'register_woo_widgets' );
+
 
 
 if ( ! function_exists( 'shopall_fonts_url' ) ) :
