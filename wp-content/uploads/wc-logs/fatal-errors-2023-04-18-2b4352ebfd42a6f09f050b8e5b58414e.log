@@ -1,0 +1,17 @@
+2023-04-18T01:50:08+00:00 CRITICAL Uncaught Error: Call to undefined method MailPoet\Form\DisplayFormInWPContent::getContentBellow() in C:\xampp\htdocs\kp4\wp-content\plugins\mailpoet\lib\Form\DisplayFormInWPContent.php:104
+Stack trace:
+#0 C:\xampp\htdocs\kp4\wp-content\plugins\mailpoet\lib\Form\DisplayFormInWPContent.php(111): MailPoet\Form\DisplayFormInWPContent->display('\n<section class...')
+#1 C:\xampp\htdocs\kp4\wp-includes\class-wp-hook.php(308): MailPoet\Form\DisplayFormInWPContent->contentDisplay('\n<section class...')
+#2 C:\xampp\htdocs\kp4\wp-includes\plugin.php(205): WP_Hook->apply_filters('\n<section class...', Array)
+#3 C:\xampp\htdocs\kp4\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:html --...')
+#4 C:\xampp\htdocs\kp4\wp-content\themes\shopall\template-parts\content-page.php(26): the_content()
+#5 C:\xampp\htdocs\kp4\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kp4\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#7 C:\xampp\htdocs\kp4\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#8 C:\xampp\htdocs\kp4\wp-content\themes\shopall\page.php(13): get_template_part('template-parts/...', 'page')
+#9 C:\xampp\htdocs\kp4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\kp4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\kp4\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown у C:\xampp\htdocs\kp4\wp-content\plugins\mailpoet\lib\Form\DisplayFormInWPContent.php доступно 104
+

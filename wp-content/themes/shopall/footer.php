@@ -9,6 +9,7 @@
                 <a href="/faqs/">FAQS</a>
                 <a href="/delivery/">DELIVERY</a>
                 <a href="/international-flower-delivery/">INTERNATIONAL FLOWER DELIVERY</a>
+                <a href="/privacy-cookie-policy/">PRIVACY & COOKIE POLICY</a>
             </div>
             <div class="footer-kosss-head-subscrip">
                 <div>
@@ -48,11 +49,7 @@
                     </div>
 
 
-                    <!-- <form action="#" method="post">
-                    <input type="hidden" name="action" value="myplugin_add_email">
-                    <input type="email" name="email" placeholder="Enter your email" required>
-                    <button type="submit" id="kosss-foot-subscription">></button>
-                </form> -->
+
                 </div>
                 <div>
                 <h3 class="insta-foot-social">CONNECT WITH US ON SOCIAL</h3>
@@ -96,7 +93,6 @@
                                                 // Получаем блок .button-help-msg и блок .button-help-msg-form
                             var buttonHelpMsg = document.querySelector('.button-help-msg');
                             var buttonHelpMsgForm = document.querySelector('.button-help-msg-form');
-
                             // При клике на блок .button-help-msg
                             buttonHelpMsg.addEventListener('click', function(event) {
                             // Отменяем стандартное действие ссылки

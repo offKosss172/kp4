@@ -7239,7 +7239,6 @@ border: none;
     background-image: url(assets/images/main/Frame.svg);
     background-repeat: no-repeat;
     padding-left: 20px;
-    font-size: 14px;
 }
 .footer-kosss-head-subscrip-div:hover{
     color: #e18284;
@@ -7906,4 +7905,69 @@ background-position: center;
 .our-mission-kosss  li { list-style-type: none; }
 .our-mission-kosss a{
 	text-decoration: none;
+}
+.privacy-cookie-policy-kosss{
+	width: 100%;
+max-width: 1520px;
+margin: 100px auto;
+text-align: left;
+display: flex;
+flex-direction: column;
+}
+.privacy-cookie-policy-kosss-second{
+	width: 100%;
+	max-width: 962px;
+  height: 0;
+  padding-bottom: 75%;
+background-image: url(assets/images/footer/Picture1.png);
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#mp_form_below_posts2{
+display: none;
+}
+.delivry-cotent-text{
+width: 100%;
+max-width: 1520px;
+margin: 100px auto;
+text-align: left;
+display: flex;
+flex-direction: column;
+}
+.faq-section-text{
+width: 100%;
+max-width: 1520px;
+margin: 100px auto;
+text-align: left;
+display: flex;
+flex-direction: column;
+}
+.delivry-cotent-text h2, .faq-section-text h2{
+	text-align: center;
+	}
+.contact-us-section-kosss{
+	width: 100%;
+max-width: 1220px;
+margin: 100px auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.contact-us-section-kosss-foto{
+	width: 100%;
+	max-width: 948px;
+  height: 0;
+  padding-bottom: 44%;
+background-image: url(assets/images/page/2023-04-18_05-31-04.png);
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.delivry-cotent-text p, .faq-section-text p, .contact-us-section-kosss p{
+	padding: 10px;
+}
+.mailpoet_form_tight_container .mailpoet_form_columns.mailpoet_stack_on_mobile {
+    margin: 0;
 }
