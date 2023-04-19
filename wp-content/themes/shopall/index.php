@@ -145,6 +145,13 @@ echo do_shortcode('[smartslider3 slider="2"]');
 		</div>
 	</div>
 </div>
+<section class="our-mission-section-kosss">
+	
+	<div class="our-mission-section-kosss-secondfoto"></div>
+  	
+</section>
+
+
 
 <!-- 
 
@@ -330,6 +337,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
 	</div>
 </section>
  -->
+
 
 
 
