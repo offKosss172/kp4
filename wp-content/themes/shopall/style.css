@@ -6355,7 +6355,7 @@ body:not(.dark-version).fifth-design #testimonial-section {
 		text-align: center;
 	}
 	.site-branding-wrapper.col-3 .login-register {
-	    text-align: right;
+	    margin-right: 40px;
 	}
 	.site-branding-wrapper .search-menu svg.icon-close,
 	.site-branding-wrapper .search-menu .search-active .icon-search {
@@ -8369,3 +8369,18 @@ display: none;
 		}
 		
 	}
+
+
+	/* хедер продолжение */
+.login-register{
+	padding-right: 400px;
+}
+.head-right-reglog{
+width: 30px;
+height: 30px;
+/* background-image: url(assets/images/header/user.png);
+background-position: left;
+background-repeat: no-repeat; */
+cursor: pointer;
+border-right: 2px solid #211000;
+}
