@@ -17,70 +17,6 @@ echo do_shortcode('[smartslider3 slider="2"]');
 </section>
 
 
-	<div class="block-recommendantion-kosss">
-		<span> FRESH PICKS: OUR TOP RECOMMENDATIONS OF THE WEEK</span>
-		<div class="block-recommendantion-kosss-owerflow">
-			 
-		<?php require get_template_directory() . '/template-parts/recommendantion-product.php'; ?>
-			 
-		
-			<!-- <div class="block-recommendantion-kosss-wrapper">
-				<div class="block-recommendantion-kosss-test">Блок 1</div>
-			</div>
-			<div class="block-recommendantion-kosss-wrapper">
-				<div class="block-recommendantion-kosss-test">Блок 2</div>
-			</div>
-			<div class="block-recommendantion-kosss-wrapper">
-				<div class="block-recommendantion-kosss-test">Блок 3</div>
-			</div>
-			<div class="block-recommendantion-kosss-wrapper">
-				<div class="block-recommendantion-kosss-test">Блок 4</div>
-  			</div>
-			  <div class="block-recommendantion-kosss-wrapper">
-				<div class="block-recommendantion-kosss-test">Блок 2</div>
-			</div>
-			<div class="block-recommendantion-kosss-wrapper">
-				<div class="block-recommendantion-kosss-test">Блок 3</div>
-			</div>
-			<div class="block-recommendantion-kosss-wrapper">
-				<div class="block-recommendantion-kosss-test">Блок 4</div>
-  			</div> -->
-		
-		</div>
-		
-	</div>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-  $(function() {
-    var container = $('.block-recommendantion-kosss-owerflow');
-    var wrapper = $('.block-recommendantion-kosss-wrapper');
-    var xStart, scrollLeft, down;
-
-    container
-      .on('mousedown', function(event) {
-        down = true;
-        xStart = event.pageX;
-        scrollLeft = container.scrollLeft();
-      })
-      .on('mouseleave', function() {
-        down = false;
-      })
-      .on('mouseup', function() {
-        down = false;
-      })
-      .on('mousemove', function(event) {
-        if (!down) return;
-        var x = event.pageX - xStart;
-        container.scrollLeft(scrollLeft - x);
-      });
-
-    wrapper.on('mousedown', function(event) {
-      event.stopPropagation();
-    });
-  });
-</script>
-
-
 <div class="extraordinary-flowers-kosss">
 	<div class="extraordinary-flowers-kosss-text">
 		<h2>EXTRAORDINARY FLOWERS. DELIVERED.</h2>
@@ -131,6 +67,47 @@ echo do_shortcode('[smartslider3 slider="2"]');
 </div>
 
 <div class="only-foto-delivery"></div>
+
+<div class="block-recommendantion-kosss">
+		<span> FRESH PICKS: OUR TOP RECOMMENDATIONS OF THE WEEK</span>
+		<div class="block-recommendantion-kosss-owerflow">
+			 
+		<?php require get_template_directory() . '/template-parts/recommendantion-product.php'; ?>
+			 
+		
+		</div>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script>
+		$(function() {
+			var container = $('.block-recommendantion-kosss-owerflow');
+			var wrapper = $('.block-recommendantion-kosss-wrapper');
+			var xStart, scrollLeft, down;
+
+			container
+			.on('mousedown', function(event) {
+				down = true;
+				xStart = event.pageX;
+				scrollLeft = container.scrollLeft();
+			})
+			.on('mouseleave', function() {
+				down = false;
+			})
+			.on('mouseup', function() {
+				down = false;
+			})
+			.on('mousemove', function(event) {
+				if (!down) return;
+				var x = event.pageX - xStart;
+				container.scrollLeft(scrollLeft - x);
+			});
+
+			wrapper.on('mousedown', function(event) {
+			event.stopPropagation();
+			});
+		});
+		</script>
+	</div>
+
 
 <div class="last-section-contant-kosss">
 	<h3><b>luxery flower delivery: about flowerbx</b></h3>
