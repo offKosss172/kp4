@@ -1622,7 +1622,7 @@ class FreeCachedContainer extends Container
      */
     protected function getSendEmailActionService()
     {
-        return $this->services['MailPoet\\Automation\\Integrations\\MailPoet\\Actions\\SendEmailAction'] = new \MailPoet\Automation\Integrations\MailPoet\Actions\SendEmailAction(($this->services['MailPoet\\Settings\\SettingsController'] ?? $this->getSettingsControllerService()), ($this->services['MailPoet\\Newsletter\\NewslettersRepository'] ?? $this->getNewslettersRepositoryService()), ($this->services['MailPoet\\Subscribers\\SubscriberSegmentRepository'] ?? $this->getSubscriberSegmentRepositoryService()), ($this->services['MailPoet\\Newsletter\\Scheduler\\AutomationEmailScheduler'] ?? $this->getAutomationEmailSchedulerService()));
+        return $this->services['MailPoet\\Automation\\Integrations\\MailPoet\\Actions\\SendEmailAction'] = new \MailPoet\Automation\Integrations\MailPoet\Actions\SendEmailAction(($this->services['MailPoet\\Settings\\SettingsController'] ?? $this->getSettingsControllerService()), ($this->services['MailPoet\\Newsletter\\NewslettersRepository'] ?? $this->getNewslettersRepositoryService()), ($this->services['MailPoet\\Subscribers\\SubscriberSegmentRepository'] ?? $this->getSubscriberSegmentRepositoryService()), ($this->services['MailPoet\\Subscribers\\SubscribersRepository'] ?? $this->getSubscribersRepositoryService()), ($this->services['MailPoet\\Newsletter\\Scheduler\\AutomationEmailScheduler'] ?? $this->getAutomationEmailSchedulerService()));
     }
 
     /**
@@ -3460,7 +3460,7 @@ class FreeCachedContainer extends Container
      */
     protected function getWooCommerceCategoryService()
     {
-        return $this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooCommerceCategory'] = new \MailPoet\Segments\DynamicSegments\Filters\WooCommerceCategory(($this->services['MailPoetVendor\\Doctrine\\ORM\\EntityManager'] ?? $this->getEntityManagerService()), ($this->privates['MailPoet\\Util\\DBCollationChecker'] ?? $this->getDBCollationCheckerService()), ($this->services['MailPoet\\WP\\Functions'] ?? ($this->services['MailPoet\\WP\\Functions'] = new \MailPoet\WP\Functions())));
+        return $this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooCommerceCategory'] = new \MailPoet\Segments\DynamicSegments\Filters\WooCommerceCategory(($this->services['MailPoetVendor\\Doctrine\\ORM\\EntityManager'] ?? $this->getEntityManagerService()), ($this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\FilterHelper'] ?? $this->getFilterHelperService()), ($this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooFilterHelper'] ?? $this->getWooFilterHelperService()), ($this->services['MailPoet\\WP\\Functions'] ?? ($this->services['MailPoet\\WP\\Functions'] = new \MailPoet\WP\Functions())));
     }
 
     /**
@@ -3490,7 +3490,7 @@ class FreeCachedContainer extends Container
      */
     protected function getWooCommerceNumberOfOrdersService()
     {
-        return $this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooCommerceNumberOfOrders'] = new \MailPoet\Segments\DynamicSegments\Filters\WooCommerceNumberOfOrders(($this->services['MailPoetVendor\\Doctrine\\ORM\\EntityManager'] ?? $this->getEntityManagerService()), ($this->privates['MailPoet\\Util\\DBCollationChecker'] ?? $this->getDBCollationCheckerService()));
+        return $this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooCommerceNumberOfOrders'] = new \MailPoet\Segments\DynamicSegments\Filters\WooCommerceNumberOfOrders(($this->services['MailPoetVendor\\Doctrine\\ORM\\EntityManager'] ?? $this->getEntityManagerService()), ($this->privates['MailPoet\\Util\\DBCollationChecker'] ?? $this->getDBCollationCheckerService()), ($this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooFilterHelper'] ?? $this->getWooFilterHelperService()));
     }
 
     /**
@@ -3500,7 +3500,7 @@ class FreeCachedContainer extends Container
      */
     protected function getWooCommerceProductService()
     {
-        return $this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooCommerceProduct'] = new \MailPoet\Segments\DynamicSegments\Filters\WooCommerceProduct(($this->services['MailPoetVendor\\Doctrine\\ORM\\EntityManager'] ?? $this->getEntityManagerService()), ($this->privates['MailPoet\\Util\\DBCollationChecker'] ?? $this->getDBCollationCheckerService()));
+        return $this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooCommerceProduct'] = new \MailPoet\Segments\DynamicSegments\Filters\WooCommerceProduct(($this->services['MailPoetVendor\\Doctrine\\ORM\\EntityManager'] ?? $this->getEntityManagerService()), ($this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\FilterHelper'] ?? $this->getFilterHelperService()), ($this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooFilterHelper'] ?? $this->getWooFilterHelperService()));
     }
 
     /**
@@ -3520,7 +3520,7 @@ class FreeCachedContainer extends Container
      */
     protected function getWooCommerceSingleOrderValueService()
     {
-        return $this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooCommerceSingleOrderValue'] = new \MailPoet\Segments\DynamicSegments\Filters\WooCommerceSingleOrderValue(($this->services['MailPoetVendor\\Doctrine\\ORM\\EntityManager'] ?? $this->getEntityManagerService()), ($this->privates['MailPoet\\Util\\DBCollationChecker'] ?? $this->getDBCollationCheckerService()));
+        return $this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooCommerceSingleOrderValue'] = new \MailPoet\Segments\DynamicSegments\Filters\WooCommerceSingleOrderValue(($this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooFilterHelper'] ?? $this->getWooFilterHelperService()));
     }
 
     /**
@@ -3540,7 +3540,7 @@ class FreeCachedContainer extends Container
      */
     protected function getWooCommerceTotalSpentService()
     {
-        return $this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooCommerceTotalSpent'] = new \MailPoet\Segments\DynamicSegments\Filters\WooCommerceTotalSpent(($this->services['MailPoetVendor\\Doctrine\\ORM\\EntityManager'] ?? $this->getEntityManagerService()), ($this->privates['MailPoet\\Util\\DBCollationChecker'] ?? $this->getDBCollationCheckerService()));
+        return $this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooCommerceTotalSpent'] = new \MailPoet\Segments\DynamicSegments\Filters\WooCommerceTotalSpent(($this->services['MailPoetVendor\\Doctrine\\ORM\\EntityManager'] ?? $this->getEntityManagerService()), ($this->privates['MailPoet\\Util\\DBCollationChecker'] ?? $this->getDBCollationCheckerService()), ($this->services['MailPoet\\Segments\\DynamicSegments\\Filters\\WooFilterHelper'] ?? $this->getWooFilterHelperService()));
     }
 
     /**

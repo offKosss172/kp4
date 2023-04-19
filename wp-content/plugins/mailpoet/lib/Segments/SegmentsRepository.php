@@ -141,6 +141,7 @@ class SegmentsRepository extends Repository {
     bool $displayInManageSubscriptionPage = true
   ): SegmentEntity {
     $displayInManageSubPage = $type === SegmentEntity::TYPE_DEFAULT ? $displayInManageSubscriptionPage : false;
+
     if ($id) {
       $segment = $this->findOneById($id);
       if (!$segment instanceof SegmentEntity) {
