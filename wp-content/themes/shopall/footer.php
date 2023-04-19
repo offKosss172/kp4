@@ -3,7 +3,7 @@
             <div>
                 <h3>POPULAR SHORTCUTS</h3>
                 <a href="/about-us/">ABOUT US</a>
-                <a href="/how-to-start-your-gift-subscription/">HOW TO START YOUR GIFT SUBSCRIPTION</a>
+                <a href="/flower-subscription-gifting/">HOW TO START YOUR GIFT SUBSCRIPTION</a>
                 <a href="/our-mission/">OUR MISSION</a>
                 <a href="/contact-us/">CONTACT US</a>
                 <a href="/faqs/">FAQS</a>
