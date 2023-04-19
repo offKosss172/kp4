@@ -117,8 +117,8 @@ if ( ! function_exists( 'shopall_header_start' ) ) :
 			<div class="site-branding-wrapper col-3">
 				<div class="wrapper">
 					<div class="left-part-kosss-conainer-head">
-						<button class="left-part-kosss-conainer-button">SELECT YOUR DELIVERY ADDRESS</button>
-						<button class="left-part-kosss-conainer-button">SHIP TO <span>GB </span>| <span> £</span> </button>
+						<!-- <button class="left-part-kosss-conainer-button">SELECT YOUR DELIVERY ADDRESS</button> -->
+						<button class="left-part-kosss-conainer-button">SHIP TO <span>GB </span>
 					</div>
 
 					<?php if ( $options['social_nav_enable'] == true ): ?>
@@ -193,6 +193,9 @@ if ( ! function_exists( 'shopall_site_branding' ) ) :
 	    	<?php endif; ?>
 		</div><!-- .site-branding -->
 		<ul class="login-register">
+			<a href="/my-account/" class="head-right-reglog">
+			<img src="/wp-content/themes/shopall/assets/images/header/user.png" alt="user">
+			</a>
 			<?php if ( $options['register_link'] !== '' || $options['sign_in_link'] !== '' ): ?>
 				<li>
 	                <?php echo shopall_get_svg( array( 'icon' => 'user') ) ; ?>
@@ -213,11 +216,11 @@ if ( ! function_exists( 'shopall_site_branding' ) ) :
 	   			<li class="cart-count">
 	       		 	<a href="<?php echo wc_get_cart_url(); ?>">
 	       		 		<?php 
-	       		 			echo esc_html_e( ' CART ', 'shopall' ); 
+	       		 			echo shopall_get_svg( array( 'icon' => 'cart' ) );
 	       		 			if ( WC()->cart->get_cart_contents_count() > 0 ) {
 	       		 				echo '('.WC()->cart->get_cart_contents_count().')';
 	       		 			 }
-	       		 			echo shopall_get_svg( array( 'icon' => 'cart' ) ); 
+	       		 			 
 
 	       		 		?>
 	           		</a>
