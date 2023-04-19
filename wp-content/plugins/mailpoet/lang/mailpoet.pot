@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the MailPoet plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: MailPoet 4.11.1\n"
+"Project-Id-Version: MailPoet 4.12.0\n"
 "Report-Msgid-Bugs-To: http://support.mailpoet.com/\n"
 "Last-Translator: MailPoet i18n (https://www.transifex.com/organization/wysija)\n"
 "Language-Team: MailPoet i18n <https://www.transifex.com/organization/wysija>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-04-10T16:16:25+00:00\n"
+"POT-Creation-Date: 2023-04-17T18:16:32+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -1047,7 +1047,7 @@ msgstr ""
 
 #: views/form/templatesLegacy/settings/field_form.hbs:16
 #: lib/Models/CustomField.php:29
-#: lib/Models/Newsletter.php:65
+#: lib/Models/Newsletter.php:66
 msgid "Please specify a type."
 msgstr ""
 
@@ -1057,9 +1057,9 @@ msgstr ""
 
 #: views/form/templatesLegacy/settings/field_form.hbs:53
 #: views/subscribers/importExport/import/step_data_manipulation.html:14
-#: lib/API/JSON/v1/DynamicSegments.php:120
-#: lib/API/JSON/v1/ImportExport.php:116
-#: lib/API/JSON/v1/Segments.php:125
+#: lib/API/JSON/v1/DynamicSegments.php:122
+#: lib/API/JSON/v1/ImportExport.php:118
+#: lib/API/JSON/v1/Segments.php:127
 #: lib/Models/CustomField.php:26
 #: lib/Models/NewsletterOptionField.php:22
 #: lib/Models/Segment.php:29
@@ -2148,7 +2148,7 @@ msgid "You need to upgrade now to be able to continue using MailPoet."
 msgstr ""
 
 #: views/layout.html:143
-msgid "If you do not send emails to your WordPress Users list, you can [link]disable it[/link] to lower your number of subscribers."
+msgid "Alternatively, [link]check how to manage your subscribers[/link] to keep your numbers below your plan’s limit."
 msgstr ""
 
 #: views/layout.html:144
@@ -2158,7 +2158,7 @@ msgid "Upgrade Now"
 msgstr ""
 
 #: views/layout.html:145
-msgid "I’ve upgraded my subscription, refresh subscriber limit"
+msgid "Refresh subscriber limit"
 msgstr ""
 
 #: views/layout.html:147
@@ -2281,92 +2281,92 @@ msgstr ""
 msgid "Today"
 msgstr ""
 
-#: views/layout.html:219
+#: views/layout.html:216
 msgid "Want to give feedback to the MailPoet team? Contact us here. Please provide as much information as possible!"
 msgstr ""
 
-#: views/layout.html:242
-#: views/layout.html:253
+#: views/layout.html:239
+#: views/layout.html:250
 #: lib/Form/Block/BlockRendererHelper.php:276
 msgid "This value seems to be invalid."
 msgstr ""
 
-#: views/layout.html:244
+#: views/layout.html:241
 #: lib/Form/Block/BlockRendererHelper.php:37
 #: lib/Form/Block/BlockRendererHelper.php:264
 msgid "This value should be a valid email."
 msgstr ""
 
-#: views/layout.html:245
+#: views/layout.html:242
 #: lib/Form/Block/BlockRendererHelper.php:266
 msgid "This value should be a valid url."
 msgstr ""
 
-#: views/layout.html:246
+#: views/layout.html:243
 #: lib/Form/Block/BlockRendererHelper.php:268
 msgid "This value should be a valid number."
 msgstr ""
 
-#: views/layout.html:247
+#: views/layout.html:244
 #: lib/Form/Block/BlockRendererHelper.php:270
 msgid "This value should be a valid integer."
 msgstr ""
 
-#: views/layout.html:248
+#: views/layout.html:245
 #: lib/Form/Block/BlockRendererHelper.php:272
 msgid "This value should be digits."
 msgstr ""
 
-#: views/layout.html:249
+#: views/layout.html:246
 #: lib/Form/Block/BlockRendererHelper.php:274
 msgid "This value should be alphanumeric."
 msgstr ""
 
-#: views/layout.html:251
+#: views/layout.html:248
 msgid "This value should not be blank."
 msgstr ""
 
-#: views/layout.html:252
+#: views/layout.html:249
 msgid "This value is required."
 msgstr ""
 
-#: views/layout.html:254
+#: views/layout.html:251
 msgid "This value should be greater than or equal to %s."
 msgstr ""
 
-#: views/layout.html:255
+#: views/layout.html:252
 msgid "This value should be lower than or equal to %s."
 msgstr ""
 
-#: views/layout.html:256
+#: views/layout.html:253
 msgid "This value should be between %s and %s."
 msgstr ""
 
-#: views/layout.html:257
+#: views/layout.html:254
 msgid "This value is too short. It should have %s characters or more."
 msgstr ""
 
-#: views/layout.html:258
+#: views/layout.html:255
 msgid "This value is too long. It should have %s characters or fewer."
 msgstr ""
 
-#: views/layout.html:259
+#: views/layout.html:256
 msgid "This value length is invalid. It should be between %s and %s characters long."
 msgstr ""
 
-#: views/layout.html:260
+#: views/layout.html:257
 msgid "You must select at least %s choices."
 msgstr ""
 
-#: views/layout.html:261
+#: views/layout.html:258
 msgid "You must select %s choices or fewer."
 msgstr ""
 
-#: views/layout.html:262
+#: views/layout.html:259
 msgid "You must select between %s and %s choices."
 msgstr ""
 
-#: views/layout.html:263
+#: views/layout.html:260
 msgid "This value should be the same."
 msgstr ""
 
@@ -3051,7 +3051,7 @@ msgstr ""
 #: views/newsletter/templates/blocks/automatedLatestContentLayout/settings.hbs:76
 #: views/newsletter/templates/blocks/posts/settingsDisplayOptions.hbs:29
 #: views/newsletter/templates/blocks/products/settingsDisplayOptions.hbs:29
-#: views/newsletter/templates/components/sidebar/styles.hbs:60
+#: views/newsletter/templates/components/sidebar/styles.hbs:61
 msgid "Heading 1"
 msgstr ""
 
@@ -3060,7 +3060,7 @@ msgstr ""
 #: views/newsletter/templates/blocks/automatedLatestContentLayout/settings.hbs:82
 #: views/newsletter/templates/blocks/posts/settingsDisplayOptions.hbs:35
 #: views/newsletter/templates/blocks/products/settingsDisplayOptions.hbs:35
-#: views/newsletter/templates/components/sidebar/styles.hbs:84
+#: views/newsletter/templates/components/sidebar/styles.hbs:85
 msgid "Heading 2"
 msgstr ""
 
@@ -3069,7 +3069,7 @@ msgstr ""
 #: views/newsletter/templates/blocks/automatedLatestContentLayout/settings.hbs:88
 #: views/newsletter/templates/blocks/posts/settingsDisplayOptions.hbs:41
 #: views/newsletter/templates/blocks/products/settingsDisplayOptions.hbs:41
-#: views/newsletter/templates/components/sidebar/styles.hbs:108
+#: views/newsletter/templates/components/sidebar/styles.hbs:109
 msgid "Heading 3"
 msgstr ""
 
@@ -3466,7 +3466,7 @@ msgstr ""
 #: views/newsletter/templates/blocks/text/settings.hbs:1
 #: views/newsletter/templates/blocks/text/settings.hbs:2
 #: views/newsletter/templates/blocks/text/widget.hbs:4
-#: views/newsletter/templates/components/sidebar/styles.hbs:35
+#: views/newsletter/templates/components/sidebar/styles.hbs:36
 msgid "Text"
 msgstr ""
 
@@ -3474,10 +3474,10 @@ msgstr ""
 #: views/newsletter/templates/blocks/coupon/settings.hbs:32
 #: views/newsletter/templates/blocks/footer/settings.hbs:7
 #: views/newsletter/templates/blocks/header/settings.hbs:8
-#: views/newsletter/templates/components/sidebar/styles.hbs:18
-#: views/newsletter/templates/components/sidebar/styles.hbs:43
-#: views/newsletter/templates/components/sidebar/styles.hbs:67
-#: views/newsletter/templates/components/sidebar/styles.hbs:91
+#: views/newsletter/templates/components/sidebar/styles.hbs:19
+#: views/newsletter/templates/components/sidebar/styles.hbs:44
+#: views/newsletter/templates/components/sidebar/styles.hbs:68
+#: views/newsletter/templates/components/sidebar/styles.hbs:92
 msgid "Standard fonts"
 msgstr ""
 
@@ -3485,10 +3485,10 @@ msgstr ""
 #: views/newsletter/templates/blocks/coupon/settings.hbs:37
 #: views/newsletter/templates/blocks/footer/settings.hbs:12
 #: views/newsletter/templates/blocks/header/settings.hbs:13
-#: views/newsletter/templates/components/sidebar/styles.hbs:24
-#: views/newsletter/templates/components/sidebar/styles.hbs:49
-#: views/newsletter/templates/components/sidebar/styles.hbs:73
-#: views/newsletter/templates/components/sidebar/styles.hbs:97
+#: views/newsletter/templates/components/sidebar/styles.hbs:25
+#: views/newsletter/templates/components/sidebar/styles.hbs:50
+#: views/newsletter/templates/components/sidebar/styles.hbs:74
+#: views/newsletter/templates/components/sidebar/styles.hbs:98
 msgid "Custom fonts"
 msgstr ""
 
@@ -3636,20 +3636,20 @@ msgstr ""
 
 #: views/newsletter/templates/blocks/footer/settings.hbs:29
 #: views/newsletter/templates/blocks/header/settings.hbs:30
-#: views/newsletter/templates/components/sidebar/styles.hbs:113
+#: views/newsletter/templates/components/sidebar/styles.hbs:114
 #: lib/Newsletter/Shortcodes/ShortcodesHelper.php:88
 msgid "Links"
 msgstr ""
 
 #: views/newsletter/templates/blocks/footer/settings.hbs:32
 #: views/newsletter/templates/blocks/header/settings.hbs:33
-#: views/newsletter/templates/components/sidebar/styles.hbs:113
+#: views/newsletter/templates/components/sidebar/styles.hbs:114
 msgid "Underline"
 msgstr ""
 
 #: views/newsletter/templates/blocks/footer/settings.hbs:70
 #: views/newsletter/templates/blocks/header/settings.hbs:70
-#: views/newsletter/templates/components/sidebar/styles.hbs:150
+#: views/newsletter/templates/components/sidebar/styles.hbs:151
 msgid "If an email client [link]does not support a custom web font[/link], a similar standard font will be used instead."
 msgstr ""
 
@@ -4072,23 +4072,23 @@ msgstr ""
 msgid "Click to toggle"
 msgstr ""
 
-#: views/newsletter/templates/components/sidebar/styles.hbs:9
+#: views/newsletter/templates/components/sidebar/styles.hbs:10
 msgid "Branding color"
 msgstr ""
 
-#: views/newsletter/templates/components/sidebar/styles.hbs:118
+#: views/newsletter/templates/components/sidebar/styles.hbs:119
 msgid "Text line height"
 msgstr ""
 
-#: views/newsletter/templates/components/sidebar/styles.hbs:128
+#: views/newsletter/templates/components/sidebar/styles.hbs:129
 msgid "Heading line height"
 msgstr ""
 
-#: views/newsletter/templates/components/sidebar/styles.hbs:142
+#: views/newsletter/templates/components/sidebar/styles.hbs:143
 msgid "Content background"
 msgstr ""
 
-#: views/newsletter/templates/components/sidebar/styles.hbs:147
+#: views/newsletter/templates/components/sidebar/styles.hbs:148
 msgid "Global background"
 msgstr ""
 
@@ -4765,7 +4765,7 @@ msgstr ""
 
 #: views/segments.html:177
 msgctxt "Subscriber engagement score"
-msgid "score"
+msgid "engagement score"
 msgstr ""
 
 #: views/segments.html:178
@@ -7071,84 +7071,84 @@ msgid "This custom field does not exist."
 msgstr ""
 
 #: lib/API/JSON/v1/DynamicSegments.php:78
-#: lib/API/JSON/v1/DynamicSegments.php:163
-#: lib/API/JSON/v1/DynamicSegments.php:196
-#: lib/API/JSON/v1/DynamicSegments.php:217
+#: lib/API/JSON/v1/DynamicSegments.php:165
+#: lib/API/JSON/v1/DynamicSegments.php:198
+#: lib/API/JSON/v1/DynamicSegments.php:219
 msgid "Missing mandatory argument `id`."
 msgstr ""
 
 #: lib/API/JSON/v1/DynamicSegments.php:85
-#: lib/API/JSON/v1/DynamicSegments.php:170
-#: lib/API/JSON/v1/DynamicSegments.php:203
-#: lib/API/JSON/v1/DynamicSegments.php:224
+#: lib/API/JSON/v1/DynamicSegments.php:172
+#: lib/API/JSON/v1/DynamicSegments.php:205
+#: lib/API/JSON/v1/DynamicSegments.php:226
 #: lib/API/JSON/v1/Subscribers.php:256
 msgid "This segment does not exist."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:116
-#: lib/API/JSON/v1/ImportExport.php:120
-#: lib/API/JSON/v1/Segments.php:129
+#: lib/API/JSON/v1/DynamicSegments.php:118
+#: lib/API/JSON/v1/ImportExport.php:122
+#: lib/API/JSON/v1/Segments.php:131
 msgid "Another record already exists. Please specify a different \"name\"."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:128
+#: lib/API/JSON/v1/DynamicSegments.php:130
 msgid "The segment type is missing."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:130
+#: lib/API/JSON/v1/DynamicSegments.php:132
 msgid "The segment type is unknown."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:132
+#: lib/API/JSON/v1/DynamicSegments.php:134
 msgid "Please select a user role."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:135
+#: lib/API/JSON/v1/DynamicSegments.php:137
 msgid "Please select an email action."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:137
+#: lib/API/JSON/v1/DynamicSegments.php:139
 msgid "Please select an email."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:139
+#: lib/API/JSON/v1/DynamicSegments.php:141
 msgid "Please select a product."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:141
+#: lib/API/JSON/v1/DynamicSegments.php:143
 msgid "Please select a country."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:143
+#: lib/API/JSON/v1/DynamicSegments.php:145
 msgid "Please select a category."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:145
+#: lib/API/JSON/v1/DynamicSegments.php:147
 msgid "Please fill all required values."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:147
+#: lib/API/JSON/v1/DynamicSegments.php:149
 msgid "Please select a type for the comparison, a number of orders and a number of days."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:150
+#: lib/API/JSON/v1/DynamicSegments.php:152
 msgid "Please select a type for the comparison, an amount and a number of days."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:152
+#: lib/API/JSON/v1/DynamicSegments.php:154
 msgid "Please add at least one condition for filtering."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:154
+#: lib/API/JSON/v1/DynamicSegments.php:156
 msgid "Please select a type for the comparison."
 msgstr ""
 
-#: lib/API/JSON/v1/DynamicSegments.php:156
+#: lib/API/JSON/v1/DynamicSegments.php:158
 msgid "An error occurred while saving data."
 msgstr ""
 
 #. translators: %1$s is a comma-seperated list of emails for which the segment is used.
-#: lib/API/JSON/v1/DynamicSegments.php:181
+#: lib/API/JSON/v1/DynamicSegments.php:183
 msgctxt "Alert shown when trying to delete segment, which is assigned to any automatic emails."
 msgid "Segment cannot be deleted because it’s used for %1$s email"
 msgstr ""
@@ -7242,38 +7242,38 @@ msgid "Error when activating MailPoet Premium plugin."
 msgstr ""
 
 #: lib/API/JSON/v1/Segments.php:99
-#: lib/API/JSON/v1/Segments.php:161
-#: lib/API/JSON/v1/Segments.php:171
-#: lib/API/JSON/v1/Segments.php:235
-#: lib/API/JSON/v1/Segments.php:257
+#: lib/API/JSON/v1/Segments.php:163
+#: lib/API/JSON/v1/Segments.php:173
+#: lib/API/JSON/v1/Segments.php:237
+#: lib/API/JSON/v1/Segments.php:259
 #: lib/API/MP/v1/Subscribers.php:392
 msgid "This list does not exist."
 msgid_plural "These lists do not exist."
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/API/JSON/v1/Segments.php:141
-#: lib/API/JSON/v1/Segments.php:177
+#: lib/API/JSON/v1/Segments.php:143
+#: lib/API/JSON/v1/Segments.php:179
 msgid "This list cannot be moved to trash."
 msgstr ""
 
 #. translators: %1$s is a comma-seperated list of emails for which the segment is used.
-#: lib/API/JSON/v1/Segments.php:188
-#: lib/API/MP/v1/Segments.php:99
+#: lib/API/JSON/v1/Segments.php:190
+#: lib/API/MP/v1/Segments.php:102
 msgctxt "Alert shown when trying to delete segment, which is assigned to any automatic emails."
 msgid "List cannot be deleted because it’s used for %1$s email"
 msgstr ""
 
 #. translators: %1$s is a comma-seperated list of forms for which the segment is used.
-#: lib/API/JSON/v1/Segments.php:200
-#: lib/API/MP/v1/Segments.php:112
+#: lib/API/JSON/v1/Segments.php:202
+#: lib/API/MP/v1/Segments.php:115
 msgctxt "Alert shown when trying to delete segment, when it is assigned to a form."
 msgid "List cannot be deleted because it’s used for %1$s form"
 msgid_plural "List cannot be deleted because it’s used for %1$s forms"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/API/JSON/v1/Segments.php:248
+#: lib/API/JSON/v1/Segments.php:250
 msgid "Duplicating of segment failed."
 msgstr ""
 
@@ -7489,32 +7489,32 @@ msgstr ""
 msgid "The list couldn’t be created in the database"
 msgstr ""
 
-#: lib/API/MP/v1/Segments.php:78
+#: lib/API/MP/v1/Segments.php:81
 msgid "The list couldn’t be updated in the database"
 msgstr ""
 
-#: lib/API/MP/v1/Segments.php:129
+#: lib/API/MP/v1/Segments.php:132
 msgid "The list couldn’t be deleted from the database"
 msgstr ""
 
-#: lib/API/MP/v1/Segments.php:138
+#: lib/API/MP/v1/Segments.php:141
 msgid "List id is required."
 msgstr ""
 
-#: lib/API/MP/v1/Segments.php:145
+#: lib/API/MP/v1/Segments.php:148
 msgid "The list does not exist."
 msgstr ""
 
-#: lib/API/MP/v1/Segments.php:158
+#: lib/API/MP/v1/Segments.php:161
 msgid "List name is required."
 msgstr ""
 
-#: lib/API/MP/v1/Segments.php:165
+#: lib/API/MP/v1/Segments.php:168
 msgid "This list already exists."
 msgstr ""
 
 #. translators: %1$s is an invalid segment type.
-#: lib/API/MP/v1/Segments.php:179
+#: lib/API/MP/v1/Segments.php:182
 msgid "List of the type %1$s is not supported for this action."
 msgstr ""
 
@@ -8076,25 +8076,25 @@ msgstr ""
 msgid "A delay can't be longer than two years"
 msgstr ""
 
-#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:55
-#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:68
+#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:63
+#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:76
 #: assets/dist/js/automation_editor.js:1
 msgid "Send email"
 msgstr ""
 
-#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:69
+#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:77
 #: assets/dist/js/admin.js:2
 #: assets/dist/js/automation_editor.js:1
 msgid "Subject"
 msgstr ""
 
-#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:99
+#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:107
 msgid "Automation email not found."
 msgstr ""
 
 #. translators: %s is the ID of email.
-#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:105
-#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:173
+#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:113
+#: lib/Automation/Integrations/MailPoet/Actions/SendEmailAction.php:219
 msgid "Automation email with ID '%s' not found."
 msgstr ""
 
@@ -10224,11 +10224,11 @@ msgstr ""
 msgid "Filter \"mailpoet_mailer_smtp_instance\" must return an instance of PHPMailer."
 msgstr ""
 
-#: lib/Models/Newsletter.php:161
+#: lib/Models/Newsletter.php:162
 msgid "This is an empty email without any content and it cannot be sent. Please update [link]the email[/link]."
 msgstr ""
 
-#: lib/Models/Newsletter.php:294
+#: lib/Models/Newsletter.php:295
 msgid "Deleted list"
 msgstr ""
 
@@ -10326,7 +10326,7 @@ msgstr ""
 
 #. translators: %s is the type which was given.
 #: lib/Newsletter/Scheduler/AutomationEmailScheduler.php:35
-msgid "Email with type 'automation' expected, '%s' given."
+msgid "Email with type 'automation' or 'transactional' expected, '%s' given."
 msgstr ""
 
 #: lib/Newsletter/Sending/ScheduledTaskSubscribersListingRepository.php:58
@@ -12581,6 +12581,22 @@ msgid "Not set up yet"
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
+msgid "wait"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "pause"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "delay"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "time"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
 msgid "Wait for"
 msgstr ""
 
@@ -12669,6 +12685,26 @@ msgid "An email will be sent to subscriber."
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
+msgid "This is a transactional email. This type of email doesn't require marketing consent. Read more about [link]transactional emails[/link]."
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "This is a marketing email. This type of email does require marketing consent. Read more about [link]marketing emails[/link]."
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "email"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "send email"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "send"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
 msgid "Trigger settings"
 msgstr ""
 
@@ -12682,6 +12718,18 @@ msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
 msgid "Starts the automation when a new subscriber is added to MailPoet."
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "subscribe"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "new subscriber"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "subscription"
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
@@ -12701,6 +12749,18 @@ msgid "Starts the automation when a new user registered in WordPress."
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
+msgid "wordpress"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "user"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "register"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
 msgid "Add tag"
 msgstr ""
 
@@ -12711,6 +12771,30 @@ msgstr ""
 #: assets/dist/js/automation_editor.js:1
 #: assets/dist/js/commons.js:9
 msgid "Premium"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "tag"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "tags"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "label"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "labels"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "add tag"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "add tags"
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
@@ -12726,6 +12810,14 @@ msgid "Remove a tag or multiple tags from a subscriber."
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
+msgid "remove tag"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "remove tags"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
 msgid "Removing tags is a premium feature."
 msgstr ""
 
@@ -12735,6 +12827,18 @@ msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
 msgid "Add a subscriber to a list."
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "list"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "add list"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "add to list"
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
@@ -12750,6 +12854,14 @@ msgid "Remove a subscriber from a list."
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
+msgid "remove list"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "remove from list"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
 msgid "Removing subscribers from lists is a premium feature."
 msgstr ""
 
@@ -12762,11 +12874,27 @@ msgid "Update the subscriber’s custom field to a specific value."
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
+msgid "update"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "update subscriber"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "update custom field"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
 msgid "Updating subscribers is a premium feature."
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
 msgid "Unsubscribe the subscriber from all marketing emails."
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "unsubscribe"
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
@@ -12782,7 +12910,39 @@ msgid "Run this automation only once per subscriber."
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
+msgid "Any"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "Status changes from:"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "Status changes to:"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "Changing the status is a premium feature."
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
 msgid "Start the automation when an order is created or changed to a specific status."
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "woocommerce"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "order"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "status"
+msgstr ""
+
+#: assets/dist/js/automation_editor.js:1
+msgid "change"
 msgstr ""
 
 #: assets/dist/js/automation_editor.js:1
@@ -13225,6 +13385,10 @@ msgstr ""
 
 #: assets/dist/js/newsletter_editor.js:2
 msgid "This email was deactivated."
+msgstr ""
+
+#: assets/dist/js/newsletter_editor.js:2
+msgid "Choose a style"
 msgstr ""
 
 #: assets/dist/js/newsletter_editor.js:2
