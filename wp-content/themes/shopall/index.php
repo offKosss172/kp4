@@ -21,7 +21,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
 		<span> FRESH PICKS: OUR TOP RECOMMENDATIONS OF THE WEEK</span>
 		<div class="block-recommendantion-kosss-owerflow">
 			 
-				<?php require get_template_directory() . '/template-parts/recommendantion-product.php'; ?>
+		<?php require get_template_directory() . '/template-parts/recommendantion-product.php'; ?>
 			 
 		
 			<!-- <div class="block-recommendantion-kosss-wrapper">
