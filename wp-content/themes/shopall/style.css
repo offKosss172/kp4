@@ -7312,10 +7312,10 @@ width: 98%;
     max-width: 1920px;
     height: 164px;
     background-image: url(assets/images/main/PRESS_LOGOS.png);
-    background-position: center;
-background-size: cover;
-    margin: 0 auto;
-    box-sizing: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
 }
 .block-recommendantion-kosss{
     width: 100%;
@@ -7749,19 +7749,19 @@ align-items: center;
     flex-direction: column;
 	display: none;
 }
-.last-line-brand-photo-first{
+.last-line-brand-photo-first, .last-line-brand-photo-second{
 	width: 100%;
-	height: 242px;
-	background-image: url(assets/images/flsubs/newspaper_1.jpg);
+	max-width: 500px;
+	height: 100px;
 	background-position: center;
-	  background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.last-line-brand-photo-first{
+	background-image: url(assets/images/flsubs/newspaper_1.jpg);
 }
 .last-line-brand-photo-second{
-	width: 100%;
-	height: 242px;
 	background-image: url(assets/images/flsubs/newspaper_2.jpg);
-	background-position: center;
-	  background-repeat: no-repeat;
 }
 .only-foto-subscription-gifting{
 	width: 100%;
@@ -8187,3 +8187,185 @@ background-repeat: no-repeat;
 background-size: contain;
 margin-bottom: 100px;
 }
+
+
+
+
+
+/* .left-part-kosss-conainer-head:first-child{
+	display: none;
+} 
+
+респонсив
+
+*/
+@media screen and (max-width: 1240px) {
+    .block-reviews-and-photos-img, .sections-subscriptions-five-img, .sections-subscriptions-six-img  {
+		display: none;
+	}
+	.block-reviews-and-photos {
+		height: auto;
+	}
+	.sections-subscriptions-five {
+   margin-bottom: 0;}
+   .subsgift-antipapping {
+    padding-top: 100px;
+}
+.footer-kosss-head-helpme {
+display: none;
+}
+}
+
+@media screen and (max-width: 994px) {
+.flower-Subscriptions-threth-block, .flower-Subscriptions-for-block {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;}
+}
+@media screen and (max-width: 895px) {
+	.three-img-blog-container {
+		flex-direction: column;
+	}
+	.three-img-blog-card {
+		width: 90%;
+		max-width: 506px;
+	}
+	.last-section-contant-block-kosss {
+		flex-direction: column;
+	}
+	.sections-foto-and-many-contant {
+		flex-direction: column;
+	}
+	.sections-foto-and-many-contant-text {
+		width: 90%;
+	}
+	.our-mission-section-peopleiniative {
+		flex-direction: column;
+		align-items: center;
+	}
+	.extraordinary-flowers-kosss-img {
+		display: none;
+	}
+	.flower-Subscriptions-second-block-card {
+		flex-direction: column;
+	}
+	.subst-gifting-block-cartgift-foto {
+		flex-direction: column;
+	}
+	.faq-section-text {
+		margin: 0 auto;
+	}
+	.our-mission-section-people-foto, .our-mission-section-iniative-foto {
+		height: 403px;
+	}
+	.our-progress-section-kosss-card {
+		width: 48%;
+	}
+}
+	@media screen and (max-width: 680px){
+		.container-footer-kosss-head {
+			flex-direction: column;
+			align-items: normal
+		}
+		.footer-kosss-head-subscrip {
+			padding-top: 50px;
+		}
+		.line-under-banner-kosss {
+		display: none;
+		}
+		.last-line-brand-photo {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 0;
+		}
+		.extraordinary-flowers-kosss{
+			height: auto;
+		}
+		.block-reviews-and-photos-contant-rev {
+			flex-direction: column;
+			align-items: center;
+		}
+		.block-reviews-and-photos-contant {
+			align-items: center;
+		}
+		.section-about-us-kosss-first-foto, .only-foto-subscription-gifting {
+			height: 345px;
+		}
+		.page-section{
+			padding: 0;
+		}
+		.our-mission-section-kosss-missiontext-content {
+			flex-direction: column;
+		}
+		.only-foto-delivery{
+			display: none;
+		}
+		.our-mission-kosss, .contact-us-section-kosss, .subscription-gifting-kosss, .privacy-cookie-policy-kosss  {
+			margin: 0 auto;
+			padding: 10px;
+		}
+		.foto-stars-rewius {
+			padding-left: 70px;
+		}
+		.line-after-nav-kosss{
+			display: none;
+		}
+	}
+	@media screen and (max-width: 600px){
+		.section-about-us-kosss-six-foto, .sections-foto-subsgift-foto {
+			height: 607px;
+		}
+		.last-section-contant-kosss, .our-mission-section-people, .our-mission-section-iniative {
+			width: 90%;
+		}
+		.only-foto-subscription-gifting-img {
+			height: 320px;
+		}
+	}
+	.flower-Subscriptions-first-block {
+		height: 473px;
+	}
+	.sections-foto-and-many-contant-foto {
+		height: 624px;
+	}
+	@media screen and (max-width: 525px){
+	.our-progress-section-kosss-card {
+		width: 80%;
+		margin: 0 auto;}
+	}
+	.section-about-us-kosss-six-foto {
+		height: 407px;
+	}
+	.section-about-us-kosss-second-foto, .section-about-us-kosss-ten-foto{
+	height: 350px;
+	}
+	.block-reviews-and-photos-contant-rev > div {
+		width: 80%;
+	}
+	.subscription-gifting-kosss h3 {
+		height: 100px;
+	}
+	.flower-Subscriptions-second-block-text {
+	padding: 10px;
+	margin: 0;
+	width: 90%;
+	}
+	.flower-Subscriptions-threth-block-text, .flower-Subscriptions-for-block-text {
+		width: 90%;
+	}
+	.flower-Subscriptions-threth-block-foto-one, .flower-Subscriptions-for-block-foto, .flower-Subscriptions-threth-block-foto-two, .flower-Subscriptions-threth-block-foto-thre {
+		height: 400px;
+	}
+	.section-about-us-kosss-first-foto{
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: inherit;
+	}
+
+	@media screen and (max-width: 480px){
+	.last-line-brand-photo{
+		height: 150px;
+		}
+		
+	}
