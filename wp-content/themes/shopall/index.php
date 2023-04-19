@@ -20,7 +20,11 @@ echo do_shortcode('[smartslider3 slider="2"]');
 	<div class="block-recommendantion-kosss">
 		<span> FRESH PICKS: OUR TOP RECOMMENDATIONS OF THE WEEK</span>
 		<div class="block-recommendantion-kosss-owerflow">
-			<div class="block-recommendantion-kosss-wrapper">
+			 
+				<?php require get_template_directory() . '/template-parts/recommendantion-product.php'; ?>
+			 
+		
+			<!-- <div class="block-recommendantion-kosss-wrapper">
 				<div class="block-recommendantion-kosss-test">Блок 1</div>
 			</div>
 			<div class="block-recommendantion-kosss-wrapper">
@@ -40,7 +44,8 @@ echo do_shortcode('[smartslider3 slider="2"]');
 			</div>
 			<div class="block-recommendantion-kosss-wrapper">
 				<div class="block-recommendantion-kosss-test">Блок 4</div>
-  			</div>
+  			</div> -->
+		
 		</div>
 		
 	</div>
