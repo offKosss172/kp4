@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-13 19:55:34+0000\n"
+"PO-Revision-Date: 2023-04-18 23:46:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,68 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.4\n"
 "Language: uk_UA\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
+
+#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/related-products/block.json
+#: packages/woocommerce-blocks/build/related-products/block.json
+msgctxt "block title"
+msgid "Related Products"
+msgstr "Схожі товари"
+
+#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/product-meta/block.json
+#: packages/woocommerce-blocks/build/product-meta/block.json
+msgctxt "block title"
+msgid "Product Meta"
+msgstr "Метадані товару"
+
+#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/product-details/block.json
+#: packages/woocommerce-blocks/build/product-details/block.json
+msgctxt "block title"
+msgid "Product Details"
+msgstr "Деталі товару"
+
+#: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/add-to-cart-form/block.json
+#: packages/woocommerce-blocks/build/add-to-cart-form/block.json
+msgctxt "block title"
+msgid "Add to Cart form"
+msgstr "Форма додавання в кошик"
+
+#: packages/woocommerce-blocks/src/BlockTemplatesController.php:649
+msgid "Shop"
+msgstr "Магазин"
+
+#: packages/woocommerce-blocks/patterns/product-search-form.php:9
+msgctxt "placeholder for search field"
+msgid "Search products…"
+msgstr "Шукати товари..."
+
+#: includes/class-wc-post-types.php:726
+msgctxt "Order status"
+msgid "Auto Draft"
+msgstr "Авточернетка"
+
+#: includes/class-wc-post-types.php:455
+msgid "Shipping section"
+msgstr "Розділ доставки"
+
+#: includes/admin/meta-boxes/views/html-product-data-variations.php:32
+msgid "Create variations"
+msgstr "Створити варіації"
+
+#: includes/admin/meta-boxes/views/html-product-data-attributes.php:35
+msgid "Create new attribute"
+msgstr "Створити новий атрибут"
+
+#: includes/admin/meta-boxes/views/html-product-attribute-inner.php:23
+msgid "f.e. size or color"
+msgstr "наприклад, розмір або колір"
+
+#: includes/admin/importers/views/html-product-csv-import-form.php:84
+msgid "Autodetect"
+msgstr "Автовизначення"
+
+#: includes/admin/importers/views/html-product-csv-import-form.php:82
+msgid "Character encoding of the file"
+msgstr "Кодування символів файлу"
 
 #: src/Admin/Features/ShippingPartnerSuggestions/DefaultShippingPartners.php:82
 #: assets/client/admin/app/index.js:2
@@ -27,6 +89,11 @@ msgstr "%1$s %2$s"
 #: templates/emails/plain/customer-on-hold-order.php:26
 msgid "Thanks for your order. It’s on-hold until we confirm that payment has been received."
 msgstr "Дякуємо за замовлення. Воно не буде опрацьоване до підтвердження оплати."
+
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:163
+#: src/Internal/Admin/RemoteFreeExtensions/DefaultFreeExtensions.php:175
+msgid "Codisto for WooCommerce"
+msgstr "Codisto для WooCommerce"
 
 #: i18n/states.php:1837
 msgid "Chernihivshchyna"
@@ -31666,6 +31733,14 @@ msgid_plural "Drafts <span class=\"count\">(%s)</span>"
 msgstr[0] "Чернетка <span class=\"count\">(%s)</span>"
 msgstr[1] "Чернетки <span class=\"count\">(%s)</span>"
 msgstr[2] "Чернеток <span class=\"count\">(%s)</span>"
+
+#. translators: %s: number of orders
+#: includes/class-wc-post-types.php:732
+msgid "Auto draft <span class=\"count\">(%s)</span>"
+msgid_plural "Auto draft <span class=\"count\">(%s)</span>"
+msgstr[0] "Авточернетка <span class=\"count\">(%s)</span>"
+msgstr[1] "Авточернетки <span class=\"count\">(%s)</span>"
+msgstr[2] "Авточернеток <span class=\"count\">(%s)</span>"
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:51
 #: includes/admin/settings/views/html-webhooks-edit.php:112
