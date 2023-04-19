@@ -4283,7 +4283,7 @@ ul.post-categories li {
     padding: 5px 20px;
 }
 
-.woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a {
+.woocommerce-account .woocommerce-MyAccount-navigation ul li:hover {
     background-color: #e18284;
 }
 .u-column2.col-2.woocommerce-Address {
@@ -8348,7 +8348,6 @@ display: none;
 	}
 	.flower-Subscriptions-second-block-text {
 	padding: 10px;
-	margin: 0;
 	width: 90%;
 	}
 	.flower-Subscriptions-threth-block-text, .flower-Subscriptions-for-block-text {

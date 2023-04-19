@@ -265,7 +265,7 @@ if ( ! function_exists( 'shopall_site_navigation' ) ) :
         	
 		</nav><!-- #site-navigation -->
 		<div class="line-after-nav-kosss">
-			<a href="#">NEW IN. SHOP THE SISON`S BEST STEMS. SHOP NOW</a>
+			<a href="/shop/?product_cat=flowers&orderby=date&order=DESC">NEW IN. SHOP THE SISON`S BEST STEMS. SHOP NOW</a>
 		</div>
 		<?php
 	}
