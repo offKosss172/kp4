@@ -59,14 +59,15 @@ if ( woocommerce_product_loop() ) {
 	woocommerce_product_loop_start();
 
 	/* отображаем виджет фильтров
-		if ( is_active_sidebar( 'filter-woo-sidebar' ) ) { ?>
-		<aside id="primary" class="right-sidebar">
-			<?php dynamic_sidebar( 'filter-woo-sidebar' ); ?>
-		</aside>
-		<?php } ?>
-	*/	
 
-	<?php
+	if ( is_active_sidebar( 'filter-woo-sidebar' ) ) { ?>
+	<aside id="primary" class="right-sidebar">
+		<?php dynamic_sidebar( 'filter-woo-sidebar' ); ?>
+	</aside>
+	<?php } ?>
+
+	<?php	
+	*/	
 
 	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {
