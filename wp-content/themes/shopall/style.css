@@ -7331,7 +7331,7 @@ margin: 0 auto;
     vertical-align: top;
   } 
 .block-recommendantion-kosss span{
-    padding-left: 20px;
+    padding-left: 0;
     padding-bottom: 30px;
 }
 .block-recommendantion-kosss-owerflow{
@@ -7348,7 +7348,7 @@ width: 400px;
 height: 440px;
 display: inline-block;
 vertical-align: top;
-background-image: url(assets/images/main/a.product.png);
+/* background-image: url(assets/images/main/a.product.png); */
 }
 .extraordinary-flowers-kosss{
     width: 100%;
